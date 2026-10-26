@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.publish.json",
+  "include": ["tests/*.test.ts", "tests/browser-suite.ts"]
+}

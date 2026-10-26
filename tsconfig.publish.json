@@ -1,0 +1,9 @@
+{
+  "extends": "./docs/engineering/tsconfig.portable.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"]
+  },
+  "include": ["publish/*.ts"]
+}

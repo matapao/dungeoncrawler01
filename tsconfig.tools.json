@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.publish.json",
+  "include": ["scripts/**/*.ts", "vite.config.ts"]
+}

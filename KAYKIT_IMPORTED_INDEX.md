@@ -1,0 +1,2856 @@
+# Verified selected KayKit imports
+
+Generated 24 October 2026 from the repository manifest and actual runtime kit index.
+
+This is a retained inventory of the original td01 collection. Parent-relative paths and hashes below
+refer to that historical source snapshot; they are not required files in this standalone checkout.
+The selected models, fonts and licences that ship here are listed in [CREDITS.md](CREDITS.md).
+
+**Scope:** this is every selected runtime object name and every pinned model-file path in those
+two inventories. It is not a complete fresh scan of the unread original Downloads collection.
+Names can repeat across packs and bundles; always resolve the owning pack.
+
+See [the asset plan](KAYKIT_ASSET_PLAN.md) for selection, priorities, sources and the next three phases.
+
+- Runtime index: 14 bundles, 1538 object identifiers.
+- Source import manifest: 2249 hashed files, 1104 model/animation files in 19 pack folders.
+- Supporting hashes, textures and binary buffers remain in `../scripts/assets/collection-manifest.json`.
+- Runtime characters live separately in `../public/assets/characters2/`.
+
+## Source snapshot hashes
+
+- `scripts/assets/collection-manifest.json` SHA-256: `e6a6c75343f7f2d02dad8bbb6379f01c53e9877c62abffc41c3b0ec030fc2d6d`
+- `public/assets/kits/index.json` SHA-256: `eabe12221bf7b89fe920c28ddd8aeb6e7254a483e305e843f7049eb20699d712`
+
+## Runtime kit index
+
+| Bundle    | Indexed objects |
+| --------- | --------------- |
+| medieval  | 128             |
+| halloween | 63              |
+| dungeon   | 167             |
+| gear      | 13              |
+| resources | 20              |
+| tools     | 24              |
+| weapons   | 125             |
+| nature    | 258             |
+| space     | 121             |
+| props2    | 465             |
+| robots    | 8               |
+| bits      | 14              |
+| cards     | 55              |
+| town      | 77              |
+
+### medieval
+
+- `medieval` / `barrel`
+- `medieval` / `bucket_arrows`
+- `medieval` / `bucket_empty`
+- `medieval` / `bucket_water`
+- `medieval` / `building_archeryrange_blue`
+- `medieval` / `building_archeryrange_green`
+- `medieval` / `building_archeryrange_red`
+- `medieval` / `building_archeryrange_yellow`
+- `medieval` / `building_barracks_blue`
+- `medieval` / `building_barracks_green`
+- `medieval` / `building_barracks_red`
+- `medieval` / `building_barracks_yellow`
+- `medieval` / `building_blacksmith_blue`
+- `medieval` / `building_bridge_A`
+- `medieval` / `building_bridge_B`
+- `medieval` / `building_castle_blue`
+- `medieval` / `building_church_blue`
+- `medieval` / `building_church_green`
+- `medieval` / `building_church_red`
+- `medieval` / `building_church_yellow`
+- `medieval` / `building_destroyed`
+- `medieval` / `building_dirt`
+- `medieval` / `building_grain`
+- `medieval` / `building_home_A_blue`
+- `medieval` / `building_home_B_blue`
+- `medieval` / `building_lumbermill_blue`
+- `medieval` / `building_market_blue`
+- `medieval` / `building_mine_blue`
+- `medieval` / `building_scaffolding`
+- `medieval` / `building_stage_A`
+- `medieval` / `building_stage_B`
+- `medieval` / `building_stage_C`
+- `medieval` / `building_tavern_blue`
+- `medieval` / `building_tower_A_blue`
+- `medieval` / `building_tower_A_green`
+- `medieval` / `building_tower_A_red`
+- `medieval` / `building_tower_A_yellow`
+- `medieval` / `building_tower_B_blue`
+- `medieval` / `building_tower_B_green`
+- `medieval` / `building_tower_B_red`
+- `medieval` / `building_tower_B_yellow`
+- `medieval` / `building_tower_base_blue`
+- `medieval` / `building_tower_base_green`
+- `medieval` / `building_tower_base_red`
+- `medieval` / `building_tower_base_yellow`
+- `medieval` / `building_tower_catapult_blue`
+- `medieval` / `building_tower_catapult_green`
+- `medieval` / `building_tower_catapult_red`
+- `medieval` / `building_tower_catapult_yellow`
+- `medieval` / `building_watermill_blue`
+- `medieval` / `building_well_blue`
+- `medieval` / `building_windmill_blue`
+- `medieval` / `cloud_big`
+- `medieval` / `cloud_small`
+- `medieval` / `crate_A_big`
+- `medieval` / `crate_A_small`
+- `medieval` / `crate_B_big`
+- `medieval` / `crate_B_small`
+- `medieval` / `crate_long_A`
+- `medieval` / `crate_long_B`
+- `medieval` / `crate_long_C`
+- `medieval` / `crate_long_empty`
+- `medieval` / `crate_open`
+- `medieval` / `fence_stone_straight`
+- `medieval` / `fence_stone_straight_gate`
+- `medieval` / `fence_wood_straight`
+- `medieval` / `fence_wood_straight_gate`
+- `medieval` / `flag_blue`
+- `medieval` / `flag_green`
+- `medieval` / `flag_red`
+- `medieval` / `flag_yellow`
+- `medieval` / `hill_single_A`
+- `medieval` / `hill_single_B`
+- `medieval` / `hill_single_C`
+- `medieval` / `hills_A`
+- `medieval` / `hills_A_trees`
+- `medieval` / `hills_B`
+- `medieval` / `hills_B_trees`
+- `medieval` / `hills_C`
+- `medieval` / `hills_C_trees`
+- `medieval` / `ladder`
+- `medieval` / `mountain_A`
+- `medieval` / `mountain_A_grass`
+- `medieval` / `mountain_A_grass_trees`
+- `medieval` / `mountain_B`
+- `medieval` / `mountain_B_grass`
+- `medieval` / `mountain_B_grass_trees`
+- `medieval` / `mountain_C`
+- `medieval` / `mountain_C_grass`
+- `medieval` / `mountain_C_grass_trees`
+- `medieval` / `pallet`
+- `medieval` / `projectile_catapult`
+- `medieval` / `resource_lumber`
+- `medieval` / `resource_stone`
+- `medieval` / `rock_single_A`
+- `medieval` / `rock_single_B`
+- `medieval` / `rock_single_C`
+- `medieval` / `rock_single_D`
+- `medieval` / `rock_single_E`
+- `medieval` / `sack`
+- `medieval` / `target`
+- `medieval` / `tent`
+- `medieval` / `tree_single_A`
+- `medieval` / `tree_single_A_cut`
+- `medieval` / `tree_single_B`
+- `medieval` / `tree_single_B_cut`
+- `medieval` / `trees_A_cut`
+- `medieval` / `trees_A_large`
+- `medieval` / `trees_A_medium`
+- `medieval` / `trees_A_small`
+- `medieval` / `trees_B_cut`
+- `medieval` / `trees_B_large`
+- `medieval` / `trees_B_medium`
+- `medieval` / `trees_B_small`
+- `medieval` / `wall_corner_A_gate`
+- `medieval` / `wall_corner_A_inside`
+- `medieval` / `wall_corner_A_outside`
+- `medieval` / `wall_corner_B_inside`
+- `medieval` / `wall_corner_B_outside`
+- `medieval` / `wall_straight`
+- `medieval` / `wall_straight_gate`
+- `medieval` / `waterlily_A`
+- `medieval` / `waterlily_B`
+- `medieval` / `waterplant_A`
+- `medieval` / `waterplant_B`
+- `medieval` / `waterplant_C`
+- `medieval` / `weaponrack`
+- `medieval` / `wheelbarrow`
+
+### halloween
+
+- `halloween` / `arch`
+- `halloween` / `arch_gate`
+- `halloween` / `bench`
+- `halloween` / `bench_decorated`
+- `halloween` / `bone_A`
+- `halloween` / `bone_B`
+- `halloween` / `bone_C`
+- `halloween` / `candle`
+- `halloween` / `candle_melted`
+- `halloween` / `candle_thin`
+- `halloween` / `candle_triple`
+- `halloween` / `coffin`
+- `halloween` / `coffin_decorated`
+- `halloween` / `crypt`
+- `halloween` / `fence`
+- `halloween` / `fence_broken`
+- `halloween` / `fence_gate`
+- `halloween` / `fence_pillar`
+- `halloween` / `fence_pillar_broken`
+- `halloween` / `fence_seperate`
+- `halloween` / `fence_seperate_broken`
+- `halloween` / `floor_dirt`
+- `halloween` / `floor_dirt_grave`
+- `halloween` / `floor_dirt_small`
+- `halloween` / `grave_A`
+- `halloween` / `grave_A_destroyed`
+- `halloween` / `grave_B`
+- `halloween` / `gravemarker_A`
+- `halloween` / `gravemarker_B`
+- `halloween` / `gravestone`
+- `halloween` / `lantern_hanging`
+- `halloween` / `lantern_standing`
+- `halloween` / `path_A`
+- `halloween` / `path_B`
+- `halloween` / `path_C`
+- `halloween` / `path_D`
+- `halloween` / `pillar`
+- `halloween` / `plaque`
+- `halloween` / `plaque_candles`
+- `halloween` / `post`
+- `halloween` / `post_lantern`
+- `halloween` / `post_skull`
+- `halloween` / `pumpkin_orange`
+- `halloween` / `pumpkin_orange_jackolantern`
+- `halloween` / `pumpkin_orange_small`
+- `halloween` / `pumpkin_yellow`
+- `halloween` / `pumpkin_yellow_jackolantern`
+- `halloween` / `pumpkin_yellow_small`
+- `halloween` / `ribcage`
+- `halloween` / `shrine`
+- `halloween` / `shrine_candles`
+- `halloween` / `skull`
+- `halloween` / `skull_candle`
+- `halloween` / `tree_dead_large`
+- `halloween` / `tree_dead_large_decorated`
+- `halloween` / `tree_dead_medium`
+- `halloween` / `tree_dead_small`
+- `halloween` / `tree_pine_orange_large`
+- `halloween` / `tree_pine_orange_medium`
+- `halloween` / `tree_pine_orange_small`
+- `halloween` / `tree_pine_yellow_large`
+- `halloween` / `tree_pine_yellow_medium`
+- `halloween` / `tree_pine_yellow_small`
+
+### dungeon
+
+- `dungeon` / `banner_brown`
+- `dungeon` / `banner_patternA_blue`
+- `dungeon` / `banner_patternA_brown`
+- `dungeon` / `banner_patternA_red`
+- `dungeon` / `banner_patternB_red`
+- `dungeon` / `banner_patternB_yellow`
+- `dungeon` / `banner_patternC_red`
+- `dungeon` / `banner_red`
+- `dungeon` / `banner_shield_blue`
+- `dungeon` / `banner_shield_brown`
+- `dungeon` / `banner_shield_red`
+- `dungeon` / `banner_shield_yellow`
+- `dungeon` / `banner_thin_blue`
+- `dungeon` / `banner_thin_brown`
+- `dungeon` / `banner_thin_red`
+- `dungeon` / `banner_thin_yellow`
+- `dungeon` / `banner_triple_blue`
+- `dungeon` / `banner_triple_red`
+- `dungeon` / `barrel_large`
+- `dungeon` / `barrel_large_decorated`
+- `dungeon` / `barrel_small`
+- `dungeon` / `barrel_small_stack`
+- `dungeon` / `barrier`
+- `dungeon` / `barrier_colum_half`
+- `dungeon` / `barrier_column`
+- `dungeon` / `barrier_corner`
+- `dungeon` / `barrier_half`
+- `dungeon` / `bed_decorated`
+- `dungeon` / `bed_floor`
+- `dungeon` / `bed_frame`
+- `dungeon` / `bottle_A_brown`
+- `dungeon` / `bottle_A_green`
+- `dungeon` / `bottle_A_labeled_brown`
+- `dungeon` / `bottle_A_labeled_green`
+- `dungeon` / `bottle_B_brown`
+- `dungeon` / `bottle_B_green`
+- `dungeon` / `bottle_C_brown`
+- `dungeon` / `bottle_C_green`
+- `dungeon` / `box_large`
+- `dungeon` / `box_small`
+- `dungeon` / `box_small_decorated`
+- `dungeon` / `box_stacked`
+- `dungeon` / `candle`
+- `dungeon` / `candle_lit`
+- `dungeon` / `candle_melted`
+- `dungeon` / `candle_thin`
+- `dungeon` / `candle_thin_lit`
+- `dungeon` / `candle_triple`
+- `dungeon` / `chair`
+- `dungeon` / `chest`
+- `dungeon` / `chest_gold`
+- `dungeon` / `coin`
+- `dungeon` / `coin_stack_large`
+- `dungeon` / `coin_stack_medium`
+- `dungeon` / `coin_stack_small`
+- `dungeon` / `column`
+- `dungeon` / `crates_stacked`
+- `dungeon` / `floor_dirt_large`
+- `dungeon` / `floor_dirt_large_rocky`
+- `dungeon` / `floor_dirt_small_A`
+- `dungeon` / `floor_dirt_small_B`
+- `dungeon` / `floor_dirt_small_corner`
+- `dungeon` / `floor_dirt_small_weeds`
+- `dungeon` / `floor_foundation_allsides`
+- `dungeon` / `floor_foundation_corner`
+- `dungeon` / `floor_foundation_diagonal_corner`
+- `dungeon` / `floor_foundation_front`
+- `dungeon` / `floor_foundation_front_and_back`
+- `dungeon` / `floor_foundation_front_and_sides`
+- `dungeon` / `floor_tile_big_grate`
+- `dungeon` / `floor_tile_grate`
+- `dungeon` / `floor_tile_large`
+- `dungeon` / `floor_tile_large_rocks`
+- `dungeon` / `floor_tile_small`
+- `dungeon` / `floor_tile_small_broken_A`
+- `dungeon` / `floor_tile_small_broken_B`
+- `dungeon` / `floor_tile_small_corner`
+- `dungeon` / `floor_tile_small_decorated`
+- `dungeon` / `floor_tile_small_weeds_A`
+- `dungeon` / `floor_tile_small_weeds_B`
+- `dungeon` / `floor_wood_large`
+- `dungeon` / `floor_wood_large_dark`
+- `dungeon` / `floor_wood_small`
+- `dungeon` / `floor_wood_small_dark`
+- `dungeon` / `keg`
+- `dungeon` / `keg_decorated`
+- `dungeon` / `key`
+- `dungeon` / `keyring`
+- `dungeon` / `keyring_hanging`
+- `dungeon` / `pillar`
+- `dungeon` / `pillar_decorated`
+- `dungeon` / `plate`
+- `dungeon` / `plate_food_A`
+- `dungeon` / `plate_food_B`
+- `dungeon` / `plate_small`
+- `dungeon` / `plate_stack`
+- `dungeon` / `rubble_half`
+- `dungeon` / `rubble_large`
+- `dungeon` / `shelf_large`
+- `dungeon` / `shelf_small`
+- `dungeon` / `shelf_small_candles`
+- `dungeon` / `shelves`
+- `dungeon` / `stairs`
+- `dungeon` / `stairs_narrow`
+- `dungeon` / `stairs_wall_left`
+- `dungeon` / `stairs_wall_right`
+- `dungeon` / `stairs_walled`
+- `dungeon` / `stairs_wide`
+- `dungeon` / `stairs_wood`
+- `dungeon` / `stairs_wood_decorated`
+- `dungeon` / `stool`
+- `dungeon` / `sword_shield`
+- `dungeon` / `sword_shield_broken`
+- `dungeon` / `sword_shield_gold`
+- `dungeon` / `table_long`
+- `dungeon` / `table_long_broken`
+- `dungeon` / `table_long_decorated_A`
+- `dungeon` / `table_long_decorated_C`
+- `dungeon` / `table_long_tablecloth`
+- `dungeon` / `table_long_tablecloth_decorated_A`
+- `dungeon` / `table_medium`
+- `dungeon` / `table_medium_broken`
+- `dungeon` / `table_medium_decorated_A`
+- `dungeon` / `table_medium_tablecloth`
+- `dungeon` / `table_small`
+- `dungeon` / `table_small_decorated_A`
+- `dungeon` / `table_small_decorated_B`
+- `dungeon` / `torch`
+- `dungeon` / `torch_lit`
+- `dungeon` / `torch_mounted`
+- `dungeon` / `trunk_large_A`
+- `dungeon` / `trunk_large_B`
+- `dungeon` / `trunk_large_C`
+- `dungeon` / `trunk_medium_A`
+- `dungeon` / `trunk_medium_B`
+- `dungeon` / `trunk_small_A`
+- `dungeon` / `trunk_small_B`
+- `dungeon` / `wall`
+- `dungeon` / `wall_Tsplit`
+- `dungeon` / `wall_Tsplit_sloped`
+- `dungeon` / `wall_arched`
+- `dungeon` / `wall_archedwindow_gated`
+- `dungeon` / `wall_archedwindow_open`
+- `dungeon` / `wall_broken`
+- `dungeon` / `wall_corner`
+- `dungeon` / `wall_corner_gated`
+- `dungeon` / `wall_corner_scaffold`
+- `dungeon` / `wall_corner_small`
+- `dungeon` / `wall_cracked`
+- `dungeon` / `wall_crossing`
+- `dungeon` / `wall_doorway`
+- `dungeon` / `wall_doorway_scaffold`
+- `dungeon` / `wall_doorway_sides`
+- `dungeon` / `wall_endcap`
+- `dungeon` / `wall_gated`
+- `dungeon` / `wall_half`
+- `dungeon` / `wall_half_endcap`
+- `dungeon` / `wall_half_endcap_sloped`
+- `dungeon` / `wall_open_scaffold`
+- `dungeon` / `wall_pillar`
+- `dungeon` / `wall_scaffold`
+- `dungeon` / `wall_shelves`
+- `dungeon` / `wall_sloped`
+- `dungeon` / `wall_window_closed`
+- `dungeon` / `wall_window_closed_scaffold`
+- `dungeon` / `wall_window_open`
+- `dungeon` / `wall_window_open_scaffold`
+
+### gear
+
+- `gear` / `arrow`
+- `gear` / `arrow_bundle`
+- `gear` / `quiver`
+- `gear` / `shield_round_color`
+- `gear` / `sword_1handed`
+- `gear` / `Skeleton_Arrow`
+- `gear` / `Skeleton_Axe`
+- `gear` / `Skeleton_Blade`
+- `gear` / `Skeleton_Crossbow`
+- `gear` / `Skeleton_Shield_Large_A`
+- `gear` / `Skeleton_Shield_Small_A`
+- `gear` / `Skeleton_Shield_Small_B`
+- `gear` / `Skeleton_Staff`
+
+### resources
+
+- `resources` / `Copper_Bar`
+- `resources` / `Copper_Nugget_Medium`
+- `resources` / `Fuel_A_Barrel`
+- `resources` / `Gold_Bar`
+- `resources` / `Gold_Nugget_Medium`
+- `resources` / `Iron_Bar`
+- `resources` / `Iron_Bars_Stack_Small`
+- `resources` / `Iron_Nugget_Medium`
+- `resources` / `Pallet_Wood`
+- `resources` / `Parts_Cog`
+- `resources` / `Parts_Pile_Small`
+- `resources` / `Silver_Bar`
+- `resources` / `Silver_Nugget_Medium`
+- `resources` / `Stone_Brick`
+- `resources` / `Stone_Bricks_Stack_Small`
+- `resources` / `Stone_Chunks_Small`
+- `resources` / `Textiles_A`
+- `resources` / `Wood_Log_A`
+- `resources` / `Wood_Plank_A`
+- `resources` / `Wood_Planks_Stack_Small`
+
+### tools
+
+- `tools` / `anvil`
+- `tools` / `axe`
+- `tools` / `blueprint`
+- `tools` / `bucket_metal`
+- `tools` / `chisel`
+- `tools` / `compass_base`
+- `tools` / `drafting_compass`
+- `tools` / `grindstone`
+- `tools` / `hammer`
+- `tools` / `handdrill`
+- `tools` / `journal_closed`
+- `tools` / `journal_open`
+- `tools` / `lantern`
+- `tools` / `magnifying_glass`
+- `tools` / `mallet`
+- `tools` / `map_rolled`
+- `tools` / `pickaxe`
+- `tools` / `rope_bundle_A`
+- `tools` / `saw`
+- `tools` / `screwdriver_A_long`
+- `tools` / `shovel`
+- `tools` / `tongs`
+- `tools` / `torch`
+- `tools` / `wrench_A`
+
+### weapons
+
+- `weapons` / `ammo_crate`
+- `weapons` / `ammo_crate_withLid`
+- `weapons` / `arrow_bow`
+- `weapons` / `arrow_bow_bundle`
+- `weapons` / `arrow_crossbow`
+- `weapons` / `arrow_crossbow_bundle`
+- `weapons` / `axe_1handed`
+- `weapons` / `axe_1handed_Large`
+- `weapons` / `axe_2handed`
+- `weapons` / `axe_2handed_Large`
+- `weapons` / `bow`
+- `weapons` / `bow_withString`
+- `weapons` / `crossbow_1handed`
+- `weapons` / `crossbow_2handed`
+- `weapons` / `dagger`
+- `weapons` / `druid_staff`
+- `weapons` / `engineer_Wrench`
+- `weapons` / `mug_empty`
+- `weapons` / `mug_empty_Large`
+- `weapons` / `mug_full`
+- `weapons` / `mug_full_Large`
+- `weapons` / `potion_huge_blue`
+- `weapons` / `potion_huge_green`
+- `weapons` / `potion_huge_orange`
+- `weapons` / `potion_huge_red`
+- `weapons` / `potion_large_blue`
+- `weapons` / `potion_large_green`
+- `weapons` / `potion_large_orange`
+- `weapons` / `potion_large_red`
+- `weapons` / `potion_medium_blue`
+- `weapons` / `potion_medium_green`
+- `weapons` / `potion_medium_orange`
+- `weapons` / `potion_medium_red`
+- `weapons` / `potion_small_blue`
+- `weapons` / `potion_small_green`
+- `weapons` / `potion_small_orange`
+- `weapons` / `potion_small_red`
+- `weapons` / `quiver`
+- `weapons` / `shield_badge`
+- `weapons` / `shield_badge_color`
+- `weapons` / `shield_round`
+- `weapons` / `shield_round_barbarian`
+- `weapons` / `shield_round_barbarian_Large`
+- `weapons` / `shield_round_color`
+- `weapons` / `shield_spikes`
+- `weapons` / `shield_spikes_color`
+- `weapons` / `shield_square`
+- `weapons` / `shield_square_color`
+- `weapons` / `shotgun`
+- `weapons` / `smokebomb`
+- `weapons` / `spellbook_closed`
+- `weapons` / `spellbook_open`
+- `weapons` / `staff`
+- `weapons` / `sword_1handed`
+- `weapons` / `sword_2handed`
+- `weapons` / `sword_2handed_color`
+- `weapons` / `turret_base`
+- `weapons` / `wand`
+- `weapons` / `arrow_A`
+- `weapons` / `arrow_B`
+- `weapons` / `arrow_C`
+- `weapons` / `axe_A`
+- `weapons` / `axe_B`
+- `weapons` / `axe_C`
+- `weapons` / `axe_D`
+- `weapons` / `bow_A`
+- `weapons` / `bow_A_withString`
+- `weapons` / `bow_B`
+- `weapons` / `bow_B_withString`
+- `weapons` / `bow_C`
+- `weapons` / `bow_C_withString`
+- `weapons` / `dagger_A`
+- `weapons` / `dagger_B`
+- `weapons` / `dagger_C`
+- `weapons` / `fistweapon_A`
+- `weapons` / `fistweapon_A_stacked`
+- `weapons` / `fistweapon_B`
+- `weapons` / `fistweapon_B_stacked`
+- `weapons` / `fistweapon_C_left`
+- `weapons` / `fistweapon_C_right`
+- `weapons` / `fistweapon_C_stacked`
+- `weapons` / `halberd`
+- `weapons` / `hammer_A`
+- `weapons` / `hammer_B`
+- `weapons` / `hammer_C`
+- `weapons` / `hammer_D`
+- `weapons` / `scythe`
+- `weapons` / `shield_A`
+- `weapons` / `shield_B`
+- `weapons` / `shield_C`
+- `weapons` / `shield_D`
+- `weapons` / `spear_A`
+- `weapons` / `spear_B`
+- `weapons` / `staff_A`
+- `weapons` / `staff_B`
+- `weapons` / `staff_C`
+- `weapons` / `staff_D`
+- `weapons` / `sword_A`
+- `weapons` / `sword_B`
+- `weapons` / `sword_C`
+- `weapons` / `sword_D`
+- `weapons` / `sword_E`
+- `weapons` / `sword_F`
+- `weapons` / `sword_G`
+- `weapons` / `wand_A`
+- `weapons` / `wand_B`
+- `weapons` / `Skeleton_Arrow`
+- `weapons` / `Skeleton_Arrow_Broken`
+- `weapons` / `Skeleton_Arrow_Broken_Half`
+- `weapons` / `Skeleton_Arrow_Half`
+- `weapons` / `Skeleton_Axe`
+- `weapons` / `Skeleton_Blade`
+- `weapons` / `Skeleton_Crossbow`
+- `weapons` / `Skeleton_Dagger`
+- `weapons` / `Skeleton_Golem_Axe`
+- `weapons` / `Skeleton_Golem_Axe_Large`
+- `weapons` / `Skeleton_Mace`
+- `weapons` / `Skeleton_Mace_Large`
+- `weapons` / `Skeleton_Quiver`
+- `weapons` / `Skeleton_Scythe`
+- `weapons` / `Skeleton_Shield_Large_A`
+- `weapons` / `Skeleton_Shield_Large_B`
+- `weapons` / `Skeleton_Shield_Small_A`
+- `weapons` / `Skeleton_Shield_Small_B`
+- `weapons` / `Skeleton_Staff`
+
+### nature
+
+- `nature` / `Bush_1_A_Color1`
+- `nature` / `Bush_1_B_Color1`
+- `nature` / `Bush_1_C_Color1`
+- `nature` / `Bush_1_D_Color1`
+- `nature` / `Bush_1_E_Color1`
+- `nature` / `Bush_1_F_Color1`
+- `nature` / `Bush_1_G_Color1`
+- `nature` / `Bush_2_A_Color1`
+- `nature` / `Bush_2_B_Color1`
+- `nature` / `Bush_2_C_Color1`
+- `nature` / `Bush_2_D_Color1`
+- `nature` / `Bush_2_E_Color1`
+- `nature` / `Bush_2_F_Color1`
+- `nature` / `Bush_3_A_Color1`
+- `nature` / `Bush_3_B_Color1`
+- `nature` / `Bush_3_C_Color1`
+- `nature` / `Bush_4_A_Color1`
+- `nature` / `Bush_4_B_Color1`
+- `nature` / `Bush_4_C_Color1`
+- `nature` / `Bush_4_D_Color1`
+- `nature` / `Bush_4_E_Color1`
+- `nature` / `Bush_4_F_Color1`
+- `nature` / `Grass_1_A_Singlesided_Color1`
+- `nature` / `Grass_1_B_Singlesided_Color1`
+- `nature` / `Grass_1_C_Singlesided_Color1`
+- `nature` / `Grass_1_D_Singlesided_Color1`
+- `nature` / `Grass_2_A_Singlesided_Color1`
+- `nature` / `Grass_2_B_Singlesided_Color1`
+- `nature` / `Grass_2_C_Singlesided_Color1`
+- `nature` / `Grass_2_D_Singlesided_Color1`
+- `nature` / `Rock_1_A_Color1`
+- `nature` / `Rock_1_B_Color1`
+- `nature` / `Rock_1_C_Color1`
+- `nature` / `Rock_1_D_Color1`
+- `nature` / `Rock_1_E_Color1`
+- `nature` / `Rock_1_F_Color1`
+- `nature` / `Rock_1_G_Color1`
+- `nature` / `Rock_1_H_Color1`
+- `nature` / `Rock_1_I_Color1`
+- `nature` / `Rock_1_J_Color1`
+- `nature` / `Rock_1_K_Color1`
+- `nature` / `Rock_1_L_Color1`
+- `nature` / `Rock_1_M_Color1`
+- `nature` / `Rock_1_N_Color1`
+- `nature` / `Rock_1_O_Color1`
+- `nature` / `Rock_1_P_Color1`
+- `nature` / `Rock_1_Q_Color1`
+- `nature` / `Rock_2_A_Color1`
+- `nature` / `Rock_2_B_Color1`
+- `nature` / `Rock_2_C_Color1`
+- `nature` / `Rock_2_D_Color1`
+- `nature` / `Rock_2_E_Color1`
+- `nature` / `Rock_2_F_Color1`
+- `nature` / `Rock_2_G_Color1`
+- `nature` / `Rock_2_H_Color1`
+- `nature` / `Rock_3_A_Color1`
+- `nature` / `Rock_3_B_Color1`
+- `nature` / `Rock_3_C_Color1`
+- `nature` / `Rock_3_D_Color1`
+- `nature` / `Rock_3_E_Color1`
+- `nature` / `Rock_3_F_Color1`
+- `nature` / `Rock_3_G_Color1`
+- `nature` / `Rock_3_H_Color1`
+- `nature` / `Rock_3_I_Color1`
+- `nature` / `Rock_3_J_Color1`
+- `nature` / `Rock_3_K_Color1`
+- `nature` / `Rock_3_L_Color1`
+- `nature` / `Rock_3_M_Color1`
+- `nature` / `Rock_3_N_Color1`
+- `nature` / `Rock_3_O_Color1`
+- `nature` / `Rock_3_P_Color1`
+- `nature` / `Rock_3_Q_Color1`
+- `nature` / `Rock_3_R_Color1`
+- `nature` / `Rock_4_A_Color1`
+- `nature` / `Rock_4_B_Color1`
+- `nature` / `Rock_4_C_Color1`
+- `nature` / `Rock_4_D_Color1`
+- `nature` / `Rock_4_E_Color1`
+- `nature` / `Rock_4_F_Color1`
+- `nature` / `Rock_4_G_Color1`
+- `nature` / `Rock_4_H_Color1`
+- `nature` / `Rock_5_A_Color1`
+- `nature` / `Rock_5_B_Color1`
+- `nature` / `Rock_5_C_Color1`
+- `nature` / `Rock_5_D_Color1`
+- `nature` / `Rock_5_E_Color1`
+- `nature` / `Rock_5_F_Color1`
+- `nature` / `Rock_5_G_Color1`
+- `nature` / `Rock_5_H_Color1`
+- `nature` / `Rock_6_A_Color1`
+- `nature` / `Rock_6_B_Color1`
+- `nature` / `Rock_6_C_Color1`
+- `nature` / `Rock_6_D_Color1`
+- `nature` / `Rock_6_E_Color1`
+- `nature` / `Rock_6_F_Color1`
+- `nature` / `Rock_6_G_Color1`
+- `nature` / `Rock_6_H_Color1`
+- `nature` / `Tree_1_A_Color1`
+- `nature` / `Tree_1_B_Color1`
+- `nature` / `Tree_1_C_Color1`
+- `nature` / `Tree_2_A_Color1`
+- `nature` / `Tree_2_B_Color1`
+- `nature` / `Tree_2_C_Color1`
+- `nature` / `Tree_2_D_Color1`
+- `nature` / `Tree_2_E_Color1`
+- `nature` / `Tree_3_A_Color1`
+- `nature` / `Tree_3_B_Color1`
+- `nature` / `Tree_3_C_Color1`
+- `nature` / `Tree_4_A_Color1`
+- `nature` / `Tree_4_B_Color1`
+- `nature` / `Tree_4_C_Color1`
+- `nature` / `Tree_5_A_Color1`
+- `nature` / `Tree_5_B_Color1`
+- `nature` / `Tree_5_C_Color1`
+- `nature` / `Tree_5_D_Color1`
+- `nature` / `Tree_5_E_Color1`
+- `nature` / `Tree_5_F_Color1`
+- `nature` / `Tree_6_A_Color1`
+- `nature` / `Tree_6_B_Color1`
+- `nature` / `Tree_6_C_Color1`
+- `nature` / `Tree_7_A_Color1`
+- `nature` / `Tree_7_B_Color1`
+- `nature` / `Tree_7_C_Color1`
+- `nature` / `Tree_Bare_1_A_Color1`
+- `nature` / `Tree_Bare_1_B_Color1`
+- `nature` / `Tree_Bare_1_C_Color1`
+- `nature` / `Tree_Bare_2_A_Color1`
+- `nature` / `Tree_Bare_2_B_Color1`
+- `nature` / `Tree_Bare_2_C_Color1`
+- `nature` / `Bush_1_A_Color6`
+- `nature` / `Bush_1_B_Color6`
+- `nature` / `Bush_1_C_Color6`
+- `nature` / `Bush_1_D_Color6`
+- `nature` / `Bush_1_E_Color6`
+- `nature` / `Bush_1_F_Color6`
+- `nature` / `Bush_1_G_Color6`
+- `nature` / `Bush_2_A_Color6`
+- `nature` / `Bush_2_B_Color6`
+- `nature` / `Bush_2_C_Color6`
+- `nature` / `Bush_2_D_Color6`
+- `nature` / `Bush_2_E_Color6`
+- `nature` / `Bush_2_F_Color6`
+- `nature` / `Bush_3_A_Color6`
+- `nature` / `Bush_3_B_Color6`
+- `nature` / `Bush_3_C_Color6`
+- `nature` / `Bush_4_A_Color6`
+- `nature` / `Bush_4_B_Color6`
+- `nature` / `Bush_4_C_Color6`
+- `nature` / `Bush_4_D_Color6`
+- `nature` / `Bush_4_E_Color6`
+- `nature` / `Bush_4_F_Color6`
+- `nature` / `Grass_1_A_Singlesided_Color6`
+- `nature` / `Grass_1_B_Singlesided_Color6`
+- `nature` / `Grass_1_C_Singlesided_Color6`
+- `nature` / `Grass_1_D_Singlesided_Color6`
+- `nature` / `Grass_2_A_Singlesided_Color6`
+- `nature` / `Grass_2_B_Singlesided_Color6`
+- `nature` / `Grass_2_C_Singlesided_Color6`
+- `nature` / `Grass_2_D_Singlesided_Color6`
+- `nature` / `Rock_1_A_Color6`
+- `nature` / `Rock_1_B_Color6`
+- `nature` / `Rock_1_C_Color6`
+- `nature` / `Rock_1_D_Color6`
+- `nature` / `Rock_1_E_Color6`
+- `nature` / `Rock_1_F_Color6`
+- `nature` / `Rock_1_G_Color6`
+- `nature` / `Rock_1_H_Color6`
+- `nature` / `Rock_1_I_Color6`
+- `nature` / `Rock_1_J_Color6`
+- `nature` / `Rock_1_K_Color6`
+- `nature` / `Rock_1_L_Color6`
+- `nature` / `Rock_1_M_Color6`
+- `nature` / `Rock_1_N_Color6`
+- `nature` / `Rock_1_O_Color6`
+- `nature` / `Rock_1_P_Color6`
+- `nature` / `Rock_1_Q_Color6`
+- `nature` / `Rock_2_A_Color6`
+- `nature` / `Rock_2_B_Color6`
+- `nature` / `Rock_2_C_Color6`
+- `nature` / `Rock_2_D_Color6`
+- `nature` / `Rock_2_E_Color6`
+- `nature` / `Rock_2_F_Color6`
+- `nature` / `Rock_2_G_Color6`
+- `nature` / `Rock_2_H_Color6`
+- `nature` / `Rock_3_A_Color6`
+- `nature` / `Rock_3_B_Color6`
+- `nature` / `Rock_3_C_Color6`
+- `nature` / `Rock_3_D_Color6`
+- `nature` / `Rock_3_E_Color6`
+- `nature` / `Rock_3_F_Color6`
+- `nature` / `Rock_3_G_Color6`
+- `nature` / `Rock_3_H_Color6`
+- `nature` / `Rock_3_I_Color6`
+- `nature` / `Rock_3_J_Color6`
+- `nature` / `Rock_3_K_Color6`
+- `nature` / `Rock_3_L_Color6`
+- `nature` / `Rock_3_M_Color6`
+- `nature` / `Rock_3_N_Color6`
+- `nature` / `Rock_3_O_Color6`
+- `nature` / `Rock_3_P_Color6`
+- `nature` / `Rock_3_Q_Color6`
+- `nature` / `Rock_3_R_Color6`
+- `nature` / `Rock_4_A_Color6`
+- `nature` / `Rock_4_B_Color6`
+- `nature` / `Rock_4_C_Color6`
+- `nature` / `Rock_4_D_Color6`
+- `nature` / `Rock_4_E_Color6`
+- `nature` / `Rock_4_F_Color6`
+- `nature` / `Rock_4_G_Color6`
+- `nature` / `Rock_4_H_Color6`
+- `nature` / `Rock_5_A_Color6`
+- `nature` / `Rock_5_B_Color6`
+- `nature` / `Rock_5_C_Color6`
+- `nature` / `Rock_5_D_Color6`
+- `nature` / `Rock_5_E_Color6`
+- `nature` / `Rock_5_F_Color6`
+- `nature` / `Rock_5_G_Color6`
+- `nature` / `Rock_5_H_Color6`
+- `nature` / `Rock_6_A_Color6`
+- `nature` / `Rock_6_B_Color6`
+- `nature` / `Rock_6_C_Color6`
+- `nature` / `Rock_6_D_Color6`
+- `nature` / `Rock_6_E_Color6`
+- `nature` / `Rock_6_F_Color6`
+- `nature` / `Rock_6_G_Color6`
+- `nature` / `Rock_6_H_Color6`
+- `nature` / `Tree_1_A_Color6`
+- `nature` / `Tree_1_B_Color6`
+- `nature` / `Tree_1_C_Color6`
+- `nature` / `Tree_2_A_Color6`
+- `nature` / `Tree_2_B_Color6`
+- `nature` / `Tree_2_C_Color6`
+- `nature` / `Tree_2_D_Color6`
+- `nature` / `Tree_2_E_Color6`
+- `nature` / `Tree_3_A_Color6`
+- `nature` / `Tree_3_B_Color6`
+- `nature` / `Tree_3_C_Color6`
+- `nature` / `Tree_4_A_Color6`
+- `nature` / `Tree_4_B_Color6`
+- `nature` / `Tree_4_C_Color6`
+- `nature` / `Tree_5_A_Color6`
+- `nature` / `Tree_5_B_Color6`
+- `nature` / `Tree_5_C_Color6`
+- `nature` / `Tree_5_D_Color6`
+- `nature` / `Tree_5_E_Color6`
+- `nature` / `Tree_5_F_Color6`
+- `nature` / `Tree_6_A_Color6`
+- `nature` / `Tree_6_B_Color6`
+- `nature` / `Tree_6_C_Color6`
+- `nature` / `Tree_7_A_Color6`
+- `nature` / `Tree_7_B_Color6`
+- `nature` / `Tree_7_C_Color6`
+- `nature` / `Tree_Bare_1_A_Color6`
+- `nature` / `Tree_Bare_1_B_Color6`
+- `nature` / `Tree_Bare_1_C_Color6`
+- `nature` / `Tree_Bare_2_A_Color6`
+- `nature` / `Tree_Bare_2_B_Color6`
+- `nature` / `Tree_Bare_2_C_Color6`
+
+### space
+
+- `space` / `basemodule_A`
+- `space` / `basemodule_B`
+- `space` / `basemodule_C`
+- `space` / `basemodule_D`
+- `space` / `basemodule_E`
+- `space` / `basemodule_garage`
+- `space` / `cargo_A`
+- `space` / `cargo_A_packed`
+- `space` / `cargo_A_stacked`
+- `space` / `cargo_B`
+- `space` / `cargo_B_packed`
+- `space` / `cargo_B_stacked`
+- `space` / `cargodepot_A`
+- `space` / `cargodepot_B`
+- `space` / `cargodepot_C`
+- `space` / `containers_A`
+- `space` / `containers_B`
+- `space` / `containers_C`
+- `space` / `containers_D`
+- `space` / `dome`
+- `space` / `drill_structure`
+- `space` / `dropship`
+- `space` / `dropship_packed`
+- `space` / `eco_module`
+- `space` / `lander_A`
+- `space` / `lander_B`
+- `space` / `lander_base`
+- `space` / `landingpad_large`
+- `space` / `landingpad_small`
+- `space` / `lights`
+- `space` / `mobile_base_cargo`
+- `space` / `mobile_base_carriage`
+- `space` / `mobile_base_command`
+- `space` / `mobile_base_frame`
+- `space` / `roofmodule_base`
+- `space` / `roofmodule_cargo_A`
+- `space` / `roofmodule_cargo_B`
+- `space` / `roofmodule_cargo_C`
+- `space` / `roofmodule_solarpanels`
+- `space` / `solarpanel`
+- `space` / `space_farm_large`
+- `space` / `space_farm_large_sprinkler`
+- `space` / `space_farm_small`
+- `space` / `spacetruck`
+- `space` / `spacetruck_large`
+- `space` / `spacetruck_trailer`
+- `space` / `structure_low`
+- `space` / `structure_tall`
+- `space` / `tunnel_diagonal_long_A`
+- `space` / `tunnel_diagonal_long_B`
+- `space` / `tunnel_diagonal_short_A`
+- `space` / `tunnel_diagonal_short_B`
+- `space` / `tunnel_straight_A`
+- `space` / `tunnel_straight_B`
+- `space` / `water_storage`
+- `space` / `windturbine_low`
+- `space` / `windturbine_tall`
+- `space` / `bracing_large_blue`
+- `space` / `bracing_medium_blue`
+- `space` / `bracing_small_blue`
+- `space` / `conveyor_2x4x1_blue`
+- `space` / `conveyor_2x8x1_blue`
+- `space` / `conveyor_4x4x1_blue`
+- `space` / `conveyor_4x8x1_blue`
+- `space` / `pillar_1x1x1`
+- `space` / `pillar_1x1x2`
+- `space` / `pillar_1x1x4`
+- `space` / `pillar_1x1x8`
+- `space` / `pillar_2x2x2`
+- `space` / `pillar_2x2x4`
+- `space` / `pillar_2x2x8`
+- `space` / `pipe_180_A_blue`
+- `space` / `pipe_180_B_blue`
+- `space` / `pipe_90_A_blue`
+- `space` / `pipe_90_B_blue`
+- `space` / `pipe_end_blue`
+- `space` / `pipe_straight_A_blue`
+- `space` / `pipe_straight_B_blue`
+- `space` / `platform_1x1x1_blue`
+- `space` / `platform_2x2x1_blue`
+- `space` / `platform_2x2x2_blue`
+- `space` / `platform_2x2x4_blue`
+- `space` / `platform_4x2x1_blue`
+- `space` / `platform_4x2x2_blue`
+- `space` / `platform_4x2x4_blue`
+- `space` / `platform_4x4x1_blue`
+- `space` / `platform_4x4x2_blue`
+- `space` / `platform_4x4x4_blue`
+- `space` / `platform_6x2x1_blue`
+- `space` / `platform_6x2x2_blue`
+- `space` / `platform_6x2x4_blue`
+- `space` / `platform_6x6x1_blue`
+- `space` / `platform_6x6x2_blue`
+- `space` / `platform_6x6x4_blue`
+- `space` / `platform_arrow_2x2x1_blue`
+- `space` / `platform_arrow_4x4x1_blue`
+- `space` / `platform_decorative_1x1x1_blue`
+- `space` / `platform_decorative_2x2x2_blue`
+- `space` / `platform_hole_6x6x1_blue`
+- `space` / `platform_slope_2x2x2_blue`
+- `space` / `platform_slope_2x4x4_blue`
+- `space` / `platform_slope_2x6x4_blue`
+- `space` / `platform_slope_4x2x2_blue`
+- `space` / `platform_slope_4x4x4_blue`
+- `space` / `platform_slope_4x6x4_blue`
+- `space` / `platform_slope_6x2x2_blue`
+- `space` / `platform_slope_6x4x4_blue`
+- `space` / `platform_slope_6x6x4_blue`
+- `space` / `railing_corner_double_blue`
+- `space` / `railing_corner_padded_blue`
+- `space` / `railing_corner_single_blue`
+- `space` / `railing_straight_double_blue`
+- `space` / `railing_straight_padded_blue`
+- `space` / `railing_straight_single_blue`
+- `space` / `structure_A`
+- `space` / `structure_B`
+- `space` / `structure_C`
+- `space` / `strut_horizontal`
+- `space` / `strut_vertical`
+- `space` / `Floor`
+- `space` / `Floor_Prototype`
+
+### props2
+
+- `props2` / `AvianSwordsman_Sword`
+- `props2` / `BlackKnight_Shield`
+- `props2` / `BlackKnight_Shield_Large`
+- `props2` / `BlackKnight_Sword`
+- `props2` / `BlackKnight_Sword_Large`
+- `props2` / `Campfire_Base`
+- `props2` / `Campfire_Logs`
+- `props2` / `Caveman_Axe`
+- `props2` / `Caveman_Club`
+- `props2` / `Caveman_Spear`
+- `props2` / `Cleric_Font`
+- `props2` / `Cleric_Mace`
+- `props2` / `Cleric_Shield`
+- `props2` / `Cleric_Tome`
+- `props2` / `banner_blue`
+- `props2` / `banner_green`
+- `props2` / `banner_patternA_green`
+- `props2` / `banner_patternA_white`
+- `props2` / `banner_patternA_yellow`
+- `props2` / `banner_patternB_blue`
+- `props2` / `banner_patternB_brown`
+- `props2` / `banner_patternB_green`
+- `props2` / `banner_patternB_white`
+- `props2` / `banner_patternC_blue`
+- `props2` / `banner_patternC_brown`
+- `props2` / `banner_patternC_green`
+- `props2` / `banner_patternC_white`
+- `props2` / `banner_patternC_yellow`
+- `props2` / `banner_shield_green`
+- `props2` / `banner_shield_white`
+- `props2` / `banner_thin_green`
+- `props2` / `banner_thin_white`
+- `props2` / `banner_triple_brown`
+- `props2` / `banner_triple_green`
+- `props2` / `banner_triple_white`
+- `props2` / `banner_triple_yellow`
+- `props2` / `banner_white`
+- `props2` / `banner_yellow`
+- `props2` / `bar_innercorner`
+- `props2` / `bar_outercorner`
+- `props2` / `bar_straight_A`
+- `props2` / `bar_straight_A_short`
+- `props2` / `bar_straight_B`
+- `props2` / `bar_straight_B_short`
+- `props2` / `bar_straight_C`
+- `props2` / `bar_straight_C_short`
+- `props2` / `bartop_A_large`
+- `props2` / `bartop_A_medium`
+- `props2` / `bartop_A_small`
+- `props2` / `bartop_B_large`
+- `props2` / `bartop_B_medium`
+- `props2` / `bartop_B_small`
+- `props2` / `bed_A_double`
+- `props2` / `bed_A_single`
+- `props2` / `bed_A_stacked`
+- `props2` / `bed_B_double`
+- `props2` / `bed_B_single`
+- `props2` / `bench`
+- `props2` / `book_brown`
+- `props2` / `book_grey`
+- `props2` / `book_tan`
+- `props2` / `bookcase_double`
+- `props2` / `bookcase_double_decoratedA`
+- `props2` / `bookcase_double_decoratedB`
+- `props2` / `bookcase_single`
+- `props2` / `bookcase_single_decoratedA`
+- `props2` / `bookcase_single_decoratedB`
+- `props2` / `bucket`
+- `props2` / `bucket_pickaxes`
+- `props2` / `ceiling_tile`
+- `props2` / `chest_large`
+- `props2` / `chest_large_gold`
+- `props2` / `chest_mimic`
+- `props2` / `crate_large`
+- `props2` / `crate_large_decorated`
+- `props2` / `crate_small`
+- `props2` / `dungeon_pickaxe`
+- `props2` / `floor_dirt_small_C`
+- `props2` / `floor_dirt_small_D`
+- `props2` / `floor_tile_big_grate_open`
+- `props2` / `floor_tile_big_spikes`
+- `props2` / `floor_tile_extralarge_grates`
+- `props2` / `floor_tile_extralarge_grates_open`
+- `props2` / `floor_tile_grate_open`
+- `props2` / `key_gold`
+- `props2` / `pickaxe_gold`
+- `props2` / `post`
+- `props2` / `rocks`
+- `props2` / `rocks_decorated`
+- `props2` / `rocks_gold`
+- `props2` / `rocks_small`
+- `props2` / `scaffold_beam_corner`
+- `props2` / `scaffold_beam_wall`
+- `props2` / `scaffold_beams_connected`
+- `props2` / `scaffold_frame_large`
+- `props2` / `scaffold_frame_small`
+- `props2` / `scaffold_pillar_corner`
+- `props2` / `scaffold_pillar_wall`
+- `props2` / `scaffold_pillar_wall_cross`
+- `props2` / `scaffold_pillar_wall_cross_top`
+- `props2` / `scaffold_pillar_wall_torch`
+- `props2` / `scaffold_pillars_connected`
+- `props2` / `scaffold_pillars_connected_torch`
+- `props2` / `shelf_small_books`
+- `props2` / `shelves_decorated`
+- `props2` / `stairs_long`
+- `props2` / `stairs_long_modular_center`
+- `props2` / `stairs_long_modular_left`
+- `props2` / `stairs_long_modular_right`
+- `props2` / `stairs_modular_center`
+- `props2` / `stairs_modular_left`
+- `props2` / `stairs_modular_right`
+- `props2` / `stool_round`
+- `props2` / `table_long_decorated_B`
+- `props2` / `table_medium_decorated_B`
+- `props2` / `table_medium_tablecloth_decorated_B`
+- `props2` / `table_round_large`
+- `props2` / `table_round_medium`
+- `props2` / `table_round_small`
+- `props2` / `table_small_decorated_C`
+- `props2` / `trunk_medium_C`
+- `props2` / `trunk_small_C`
+- `props2` / `wall_archedwindow_gated_scaffold`
+- `props2` / `wall_doorway_Tsplit`
+- `props2` / `wall_inset`
+- `props2` / `wall_inset_candles`
+- `props2` / `wall_inset_shelves`
+- `props2` / `wall_inset_shelves_broken`
+- `props2` / `wall_inset_shelves_decoratedA`
+- `props2` / `wall_inset_shelves_decoratedB`
+- `props2` / `carrot`
+- `props2` / `dirt_plot`
+- `props2` / `lettuce`
+- `props2` / `pitchfork`
+- `props2` / `wheelbarrow`
+- `props2` / `wheelbarrow_empty`
+- `props2` / `FrostGolem_Axe`
+- `props2` / `FrostGolem_Axe_Large`
+- `props2` / `armchair`
+- `props2` / `armchair_pillows`
+- `props2` / `bed_double_A`
+- `props2` / `bed_double_B`
+- `props2` / `bed_single_A`
+- `props2` / `bed_single_B`
+- `props2` / `book_set`
+- `props2` / `book_single`
+- `props2` / `cabinet_medium`
+- `props2` / `cabinet_medium_decorated`
+- `props2` / `cabinet_small`
+- `props2` / `cabinet_small_decorated`
+- `props2` / `cactus_medium_A`
+- `props2` / `cactus_medium_B`
+- `props2` / `cactus_small_A`
+- `props2` / `cactus_small_B`
+- `props2` / `chair_A`
+- `props2` / `chair_A_wood`
+- `props2` / `chair_B`
+- `props2` / `chair_B_wood`
+- `props2` / `chair_C`
+- `props2` / `chair_desk_A`
+- `props2` / `chair_desk_B`
+- `props2` / `chair_stool`
+- `props2` / `chair_stool_wood`
+- `props2` / `couch`
+- `props2` / `couch_pillows`
+- `props2` / `cup`
+- `props2` / `cup_pencils`
+- `props2` / `desk`
+- `props2` / `desk_decorated`
+- `props2` / `desk_large`
+- `props2` / `desk_large_decorated`
+- `props2` / `gameconsole_handheld`
+- `props2` / `keyboard`
+- `props2` / `lamp_desk`
+- `props2` / `lamp_desk_headphones`
+- `props2` / `lamp_standing`
+- `props2` / `lamp_table`
+- `props2` / `monitor`
+- `props2` / `mouse`
+- `props2` / `mousepad_A`
+- `props2` / `mousepad_B`
+- `props2` / `mousepad_large_A`
+- `props2` / `mousepad_large_B`
+- `props2` / `mug_A`
+- `props2` / `mug_B`
+- `props2` / `pictureframe_large_A`
+- `props2` / `pictureframe_large_B`
+- `props2` / `pictureframe_medium`
+- `props2` / `pictureframe_small_A`
+- `props2` / `pictureframe_small_B`
+- `props2` / `pictureframe_small_C`
+- `props2` / `pictureframe_standing_A`
+- `props2` / `pictureframe_standing_B`
+- `props2` / `pillow_A`
+- `props2` / `pillow_B`
+- `props2` / `rug_oval_A`
+- `props2` / `rug_oval_B`
+- `props2` / `rug_rectangle_A`
+- `props2` / `rug_rectangle_B`
+- `props2` / `rug_rectangle_stripes_A`
+- `props2` / `rug_rectangle_stripes_B`
+- `props2` / `shelf_A_big`
+- `props2` / `shelf_A_small`
+- `props2` / `shelf_B_large`
+- `props2` / `shelf_B_large_decorated`
+- `props2` / `shelf_B_small`
+- `props2` / `shelf_B_small_decorated`
+- `props2` / `table_low`
+- `props2` / `table_low_decorated`
+- `props2` / `table_medium`
+- `props2` / `table_medium_long`
+- `props2` / `table_small`
+- `props2` / `haybale`
+- `props2` / `scarecrow`
+- `props2` / `sign_both`
+- `props2` / `sign_left`
+- `props2` / `sign_right`
+- `props2` / `wagon`
+- `props2` / `wagon_hay`
+- `props2` / `wooden_gate`
+- `props2` / `Hoarder_Sword`
+- `props2` / `Lorekeeper_Staff`
+- `props2` / `Lorekeeper_Tome`
+- `props2` / `Monstrosity_BarndoorShield`
+- `props2` / `Monstrosity_BarndoorShield_Large`
+- `props2` / `Monstrosity_Pitchfork`
+- `props2` / `Monstrosity_Pitchfork_Large`
+- `props2` / `Ninja_Katana`
+- `props2` / `Ninja_Shuriken`
+- `props2` / `OrcBrute_Axe`
+- `props2` / `Orc_Axe_Large`
+- `props2` / `Orc_Banner`
+- `props2` / `Orc_Banner_Large`
+- `props2` / `OrcRaider_Axe`
+- `props2` / `Orc_Club`
+- `props2` / `Orc_DrinkingHorn`
+- `props2` / `Orc_Wardrum`
+- `props2` / `Orc_WardrumStick`
+- `props2` / `paladin_book`
+- `props2` / `paladin_hammer`
+- `props2` / `paladin_shield`
+- `props2` / `paladin_statue`
+- `props2` / `PlantWarrior_Arrow`
+- `props2` / `PlantWarrior_Bow`
+- `props2` / `PlantWarrior_Bow_withString`
+- `props2` / `PlantWarrior_Shield`
+- `props2` / `PlantWarrior_Spear`
+- `props2` / `Containers_Box_Large`
+- `props2` / `Containers_Box_Large_Dirty`
+- `props2` / `Containers_Box_Medium`
+- `props2` / `Containers_Box_Small`
+- `props2` / `Containers_Crate_Large`
+- `props2` / `Containers_Crate_Medium_Grey`
+- `props2` / `Containers_Crate_Medium_Tan`
+- `props2` / `Containers_Crate_Medium_Wood`
+- `props2` / `Containers_Crate_Small_Green`
+- `props2` / `Containers_Crate_Small_Grey`
+- `props2` / `Containers_Pile_Large`
+- `props2` / `Containers_Pile_Medium`
+- `props2` / `Containers_Pile_Small`
+- `props2` / `Copper_Bar`
+- `props2` / `Copper_Bars`
+- `props2` / `Copper_Bars_Stack_Large`
+- `props2` / `Copper_Bars_Stack_Medium`
+- `props2` / `Copper_Bars_Stack_Small`
+- `props2` / `Copper_Nugget_Large`
+- `props2` / `Copper_Nugget_Medium`
+- `props2` / `Copper_Nugget_Small`
+- `props2` / `Copper_Nuggets`
+- `props2` / `Food_Apple_Green`
+- `props2` / `Food_Apple_Red`
+- `props2` / `Food_Barrel_Empty`
+- `props2` / `Food_Barrel_Fish`
+- `props2` / `Food_Basket_A_Berries`
+- `props2` / `Food_Basket_A_Empty`
+- `props2` / `Food_Basket_B_Berries`
+- `props2` / `Food_Basket_B_Empty`
+- `props2` / `Food_Berry_Blue`
+- `props2` / `Food_Berry_Orange`
+- `props2` / `Food_Cheese`
+- `props2` / `Food_Crate_Large_Apples`
+- `props2` / `Food_Crate_Large_Empty`
+- `props2` / `Food_Crate_Small_Berries`
+- `props2` / `Food_Crate_Small_Empty`
+- `props2` / `Food_Flour`
+- `props2` / `Food_Pile_Large`
+- `props2` / `Food_Pile_Medium`
+- `props2` / `Food_Pile_Small`
+- `props2` / `Fuel_A_Barrel`
+- `props2` / `Fuel_A_Barrel_Dirty`
+- `props2` / `Fuel_A_Barrels`
+- `props2` / `Fuel_A_Jerrycan`
+- `props2` / `Fuel_B_Barrel`
+- `props2` / `Fuel_B_Barrel_Dirty`
+- `props2` / `Fuel_B_Barrels`
+- `props2` / `Fuel_B_Jerrycan`
+- `props2` / `Fuel_C_Barrel`
+- `props2` / `Fuel_C_Barrel_Dirty`
+- `props2` / `Fuel_C_Barrels`
+- `props2` / `Fuel_C_Jerrycan`
+- `props2` / `Gem_Large`
+- `props2` / `Gem_Medium`
+- `props2` / `Gem_Small`
+- `props2` / `Gems_Chest`
+- `props2` / `Gems_Chest_Empty`
+- `props2` / `Gems_Pile_Large`
+- `props2` / `Gems_Pile_Small`
+- `props2` / `Gems_Sack`
+- `props2` / `Gold_Bar`
+- `props2` / `Gold_Bars`
+- `props2` / `Gold_Bars_Stack_Large`
+- `props2` / `Gold_Bars_Stack_Medium`
+- `props2` / `Gold_Bars_Stack_Small`
+- `props2` / `Gold_Nugget_Large`
+- `props2` / `Gold_Nugget_Medium`
+- `props2` / `Gold_Nugget_Small`
+- `props2` / `Gold_Nuggets`
+- `props2` / `Iron_Bar`
+- `props2` / `Iron_Bars`
+- `props2` / `Iron_Bars_Stack_Large`
+- `props2` / `Iron_Bars_Stack_Medium`
+- `props2` / `Iron_Bars_Stack_Small`
+- `props2` / `Iron_Nugget_Large`
+- `props2` / `Iron_Nugget_Medium`
+- `props2` / `Iron_Nugget_Small`
+- `props2` / `Iron_Nuggets`
+- `props2` / `Money_Bill`
+- `props2` / `Money_Bill_Arched`
+- `props2` / `Money_Bills_Stack_Large`
+- `props2` / `Money_Bills_Stack_Medium`
+- `props2` / `Money_Bills_Stack_Small`
+- `props2` / `Money_Coins_Stack_Large`
+- `props2` / `Money_Coins_Stack_Medium`
+- `props2` / `Money_Coins_Stack_Single`
+- `props2` / `Money_Coins_Stack_Small`
+- `props2` / `Money_Pile_Large`
+- `props2` / `Money_Pile_Medium`
+- `props2` / `Money_Pile_Small`
+- `props2` / `Money_Single`
+- `props2` / `Pallet_Plastic_Blue`
+- `props2` / `Pallet_Plastic_Grey`
+- `props2` / `Pallet_Plastic_Orange`
+- `props2` / `Pallet_Wood`
+- `props2` / `Pallet_Wood_Covered_A`
+- `props2` / `Pallet_Wood_Covered_B`
+- `props2` / `Parts_Cog`
+- `props2` / `Parts_Pile_Large`
+- `props2` / `Parts_Pile_Medium`
+- `props2` / `Parts_Pile_Small`
+- `props2` / `Silver_Bar`
+- `props2` / `Silver_Bars`
+- `props2` / `Silver_Bars_Stack_Large`
+- `props2` / `Silver_Bars_Stack_Medium`
+- `props2` / `Silver_Bars_Stack_Small`
+- `props2` / `Silver_Nugget_Large`
+- `props2` / `Silver_Nugget_Medium`
+- `props2` / `Silver_Nugget_Small`
+- `props2` / `Silver_Nuggets`
+- `props2` / `Stone_Brick`
+- `props2` / `Stone_Bricks_Stack_Large`
+- `props2` / `Stone_Bricks_Stack_Medium`
+- `props2` / `Stone_Bricks_Stack_Small`
+- `props2` / `Stone_Chunks_Large`
+- `props2` / `Stone_Chunks_Small`
+- `props2` / `Textiles_A`
+- `props2` / `Textiles_B`
+- `props2` / `Textiles_C`
+- `props2` / `Textiles_Stack_Large`
+- `props2` / `Textiles_Stack_Large_Colored`
+- `props2` / `Textiles_Stack_Small`
+- `props2` / `Wood_Log_A`
+- `props2` / `Wood_Log_B`
+- `props2` / `Wood_Log_Stack`
+- `props2` / `Wood_Plank_A`
+- `props2` / `Wood_Plank_B`
+- `props2` / `Wood_Plank_C`
+- `props2` / `Wood_Planks_Stack_Large`
+- `props2` / `Wood_Planks_Stack_Medium`
+- `props2` / `Wood_Planks_Stack_Small`
+- `props2` / `Tiefling_Sword`
+- `props2` / `Tiefling_SwordsBackpack`
+- `props2` / `anvil`
+- `props2` / `axe`
+- `props2` / `blueprint`
+- `props2` / `blueprint_stacked`
+- `props2` / `bucket_metal`
+- `props2` / `chisel`
+- `props2` / `compass_base`
+- `props2` / `drafting_compass`
+- `props2` / `file`
+- `props2` / `fishing_floater`
+- `props2` / `fishing_hook_A`
+- `props2` / `fishing_hook_B`
+- `props2` / `fishing_rod`
+- `props2` / `fishing_rod_base`
+- `props2` / `fishing_tacklebox`
+- `props2` / `fishing_tacklebox_empty`
+- `props2` / `fishing_worm`
+- `props2` / `grindstone`
+- `props2` / `hammer`
+- `props2` / `handdrill`
+- `props2` / `handplane`
+- `props2` / `journal_closed`
+- `props2` / `journal_open`
+- `props2` / `key_A`
+- `props2` / `key_B`
+- `props2` / `key_C`
+- `props2` / `knife`
+- `props2` / `lantern`
+- `props2` / `lock_A`
+- `props2` / `lock_B`
+- `props2` / `lock_C`
+- `props2` / `lockpick_A`
+- `props2` / `lockpick_A_old`
+- `props2` / `lockpick_B`
+- `props2` / `lockpick_C`
+- `props2` / `lockpick_D`
+- `props2` / `lockpick_set`
+- `props2` / `magnifying_glass`
+- `props2` / `mallet`
+- `props2` / `map`
+- `props2` / `map_empty`
+- `props2` / `map_rolled`
+- `props2` / `nail`
+- `props2` / `pencil_A_long`
+- `props2` / `pencil_A_short`
+- `props2` / `pencil_B_long`
+- `props2` / `pencil_B_short`
+- `props2` / `pickaxe`
+- `props2` / `rope_bundle_A`
+- `props2` / `rope_bundle_B`
+- `props2` / `saw`
+- `props2` / `scissors`
+- `props2` / `screw_A`
+- `props2` / `screw_B`
+- `props2` / `screwdriver_A_long`
+- `props2` / `screwdriver_A_long_color`
+- `props2` / `screwdriver_A_short`
+- `props2` / `screwdriver_A_short_color`
+- `props2` / `screwdriver_B_long`
+- `props2` / `screwdriver_B_long_color`
+- `props2` / `screwdriver_B_short`
+- `props2` / `screwdriver_B_short_color`
+- `props2` / `shovel`
+- `props2` / `tongs`
+- `props2` / `torch`
+- `props2` / `torch_burnt`
+- `props2` / `trowel`
+- `props2` / `wrench_A`
+- `props2` / `wrench_B`
+- `props2` / `Vampire_Gem_Large`
+- `props2` / `Vampire_Gem_Medium`
+- `props2` / `Vampire_Gem_Small`
+- `props2` / `Vampire_Goblet`
+- `props2` / `Vampire_Sword`
+- `props2` / `Vampire_Throne`
+- `props2` / `Werewolf_Axe`
+- `props2` / `Basket`
+- `props2` / `Basket_Mushrooms`
+- `props2` / `Broom`
+- `props2` / `Cauldron`
+- `props2` / `Mortar`
+- `props2` / `Pestle`
+- `props2` / `Potionstation`
+- `props2` / `Potionstation_decorated`
+
+### robots
+
+- `robots` / `4GTN_Katana`
+- `robots` / `CombatMech_Axe`
+- `robots` / `CombatMech_Minigun`
+- `robots` / `Robot_ChargingStation`
+- `robots` / `SpaceRanger_Blade`
+- `robots` / `SpaceRanger_Helmet`
+- `robots` / `SpaceRanger_Jetpack`
+- `robots` / `SpaceRanger_Rifle`
+
+### bits
+
+- `bits` / `toolcart`
+- `bits` / `toolcart_tall`
+- `bits` / `tracks_crossing`
+- `bits` / `tracks_curve`
+- `bits` / `tracks_split_left`
+- `bits` / `tracks_split_right`
+- `bits` / `tracks_straight`
+- `bits` / `tracks_straight_station`
+- `bits` / `train_locomotive`
+- `bits` / `train_tender_coal`
+- `bits` / `train_tender_empty`
+- `bits` / `train_tender_presents_A`
+- `bits` / `train_tender_presents_B`
+- `bits` / `train_wagon`
+
+### cards
+
+- `cards` / `card_base`
+- `cards` / `card_clubs_ace`
+- `cards` / `card_clubs_eight`
+- `cards` / `card_clubs_five`
+- `cards` / `card_clubs_four`
+- `cards` / `card_clubs_jack`
+- `cards` / `card_clubs_king`
+- `cards` / `card_clubs_nine`
+- `cards` / `card_clubs_queen`
+- `cards` / `card_clubs_seven`
+- `cards` / `card_clubs_six`
+- `cards` / `card_clubs_ten`
+- `cards` / `card_clubs_three`
+- `cards` / `card_clubs_two`
+- `cards` / `card_diamonds_ace`
+- `cards` / `card_diamonds_eight`
+- `cards` / `card_diamonds_five`
+- `cards` / `card_diamonds_four`
+- `cards` / `card_diamonds_jack`
+- `cards` / `card_diamonds_king`
+- `cards` / `card_diamonds_nine`
+- `cards` / `card_diamonds_queen`
+- `cards` / `card_diamonds_seven`
+- `cards` / `card_diamonds_six`
+- `cards` / `card_diamonds_ten`
+- `cards` / `card_diamonds_three`
+- `cards` / `card_diamonds_two`
+- `cards` / `card_hearts_ace`
+- `cards` / `card_hearts_eight`
+- `cards` / `card_hearts_five`
+- `cards` / `card_hearts_four`
+- `cards` / `card_hearts_jack`
+- `cards` / `card_hearts_king`
+- `cards` / `card_hearts_nine`
+- `cards` / `card_hearts_queen`
+- `cards` / `card_hearts_seven`
+- `cards` / `card_hearts_six`
+- `cards` / `card_hearts_ten`
+- `cards` / `card_hearts_three`
+- `cards` / `card_hearts_two`
+- `cards` / `card_joker_A`
+- `cards` / `card_joker_B`
+- `cards` / `card_spades_ace`
+- `cards` / `card_spades_eight`
+- `cards` / `card_spades_five`
+- `cards` / `card_spades_four`
+- `cards` / `card_spades_jack`
+- `cards` / `card_spades_king`
+- `cards` / `card_spades_nine`
+- `cards` / `card_spades_queen`
+- `cards` / `card_spades_seven`
+- `cards` / `card_spades_six`
+- `cards` / `card_spades_ten`
+- `cards` / `card_spades_three`
+- `cards` / `card_spades_two`
+
+### town
+
+- `town` / `building_home_A_red`
+- `town` / `building_home_A_green`
+- `town` / `building_home_A_yellow`
+- `town` / `building_home_B_red`
+- `town` / `building_home_B_green`
+- `town` / `building_stables_yellow`
+- `town` / `building_watchtower_blue`
+- `town` / `building_shrine_green`
+- `town` / `building_well_red`
+- `town` / `building_workshop_blue`
+- `town` / `building_blacksmith_red`
+- `town` / `haybale`
+- `town` / `trough`
+- `town` / `cart`
+- `town` / `horse_A`
+- `town` / `horse_C`
+- `town` / `banner_red_full`
+- `town` / `banner_blue_full`
+- `town` / `building_townhall_blue`
+- `town` / `building_tavern_red`
+- `town` / `building_home_B_yellow`
+- `town` / `building_docks_yellow`
+- `town` / `building_tent_red`
+- `town` / `boat`
+- `town` / `boatrack`
+- `town` / `trough_long`
+- `town` / `dirt_plot`
+- `town` / `carrot`
+- `town` / `lettuce`
+- `town` / `pitchfork`
+- `town` / `scarecrow`
+- `town` / `wagon`
+- `town` / `sign_both`
+- `town` / `sign_left`
+- `town` / `wheelbarrow_empty`
+- `town` / `fishing_rod`
+- `town` / `Food_Crate_Large_Apples`
+- `town` / `Food_Crate_Small_Berries`
+- `town` / `Food_Basket_A_Berries`
+- `town` / `Food_Basket_B_Empty`
+- `town` / `Food_Cheese`
+- `town` / `Food_Flour`
+- `town` / `Textiles_Stack_Large_Colored`
+- `town` / `Containers_Crate_Medium_Wood`
+- `town` / `Pallet_Wood_Covered_A`
+- `town` / `banner_patternB_blue`
+- `town` / `banner_triple_yellow`
+- `town` / `bench`
+- `town` / `stool_round`
+- `town` / `table_round_medium`
+- `town` / `crate_small`
+- `town` / `Wood_Log_B`
+- `town` / `Wood_Planks_Stack_Large`
+- `town` / `Wood_Planks_Stack_Medium`
+- `town` / `Wood_Plank_B`
+- `town` / `Stone_Bricks_Stack_Large`
+- `town` / `Stone_Bricks_Stack_Medium`
+- `town` / `Iron_Bars_Stack_Medium`
+- `town` / `Copper_Bars_Stack_Small`
+- `town` / `Iron_Nuggets`
+- `town` / `Gems_Pile_Small`
+- `town` / `Gem_Medium`
+- `town` / `handplane`
+- `town` / `file`
+- `town` / `trowel`
+- `town` / `bookcase_double`
+- `town` / `bookcase_single_decoratedB`
+- `town` / `book_brown`
+- `town` / `book_grey`
+- `town` / `Cauldron`
+- `town` / `Potionstation`
+- `town` / `Mortar`
+- `town` / `Pestle`
+- `town` / `Cleric_Tome`
+- `town` / `rug_oval_B`
+- `town` / `rocks`
+- `town` / `rocks_small`
+
+## Pinned source model files
+
+| Source pack                           | Selected model files |
+| ------------------------------------- | -------------------- |
+| KayKit Adventurers 2.0                | 67                   |
+| KayKit Board Game Bits 1.0            | 55                   |
+| KayKit Character Animations 1.1       | 14                   |
+| KayKit Dungeon Pack 1.1               | 116                  |
+| KayKit Fantasy Weapons Bits 1.0       | 48                   |
+| KayKit Forest Nature Pack 1.0         | 258                  |
+| KayKit Furniture Bits 1.0             | 74                   |
+| KayKit Halloween Bits 1.0             | 8                    |
+| KayKit Holiday Bits 1.0               | 12                   |
+| KayKit Mixed Bag 1                    | 2                    |
+| KayKit Mystery Monthly Series 4 (1.1) | 27                   |
+| KayKit Mystery Monthly Series 5 (1.1) | 37                   |
+| KayKit Mystery Monthly Series 6 (1.1) | 39                   |
+| KayKit Platformer Pack 1.0            | 62                   |
+| KayKit Prototype Bits 1.1             | 2                    |
+| KayKit RPG Tools Bits 1.0             | 69                   |
+| KayKit Resource Bits 1.0              | 132                  |
+| KayKit Skeletons 1.1                  | 25                   |
+| KayKit Space Base Bits 1.0            | 57                   |
+
+### KayKit Adventurers 2.0
+
+- `KayKit Adventurers 2.0/Assets/gltf/ammo_crate.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/ammo_crate_withLid.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/arrow_bow.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/arrow_bow_bundle.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/arrow_crossbow.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/arrow_crossbow_bundle.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/axe_1handed.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/axe_1handed_Large.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/axe_2handed.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/axe_2handed_Large.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/bow.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/bow_withString.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/crossbow_1handed.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/crossbow_2handed.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/dagger.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/druid_staff.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/engineer_Wrench.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/mug_empty.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/mug_empty_Large.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/mug_full.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/mug_full_Large.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_huge_blue.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_huge_green.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_huge_orange.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_huge_red.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_large_blue.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_large_green.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_large_orange.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_large_red.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_medium_blue.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_medium_green.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_medium_orange.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_medium_red.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_small_blue.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_small_green.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_small_orange.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/potion_small_red.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/quiver.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_badge.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_badge_color.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_round.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_round_barbarian.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_round_barbarian_Large.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_round_color.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_spikes.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_spikes_color.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_square.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shield_square_color.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/shotgun.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/smokebomb.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/spellbook_closed.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/spellbook_open.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/staff.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/sword_1handed.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/sword_2handed.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/sword_2handed_color.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/turret_base.gltf`
+- `KayKit Adventurers 2.0/Assets/gltf/wand.gltf`
+- `KayKit Adventurers 2.0/Characters/gltf/Barbarian.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Barbarian_Large.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Druid.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Engineer.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Knight.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Mage.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Ranger.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Rogue.glb`
+- `KayKit Adventurers 2.0/Characters/gltf/Rogue_Hooded.glb`
+
+### KayKit Board Game Bits 1.0
+
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_base.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_ace.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_eight.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_five.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_four.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_jack.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_king.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_nine.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_queen.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_seven.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_six.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_ten.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_three.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_clubs_two.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_ace.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_eight.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_five.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_four.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_jack.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_king.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_nine.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_queen.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_seven.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_six.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_ten.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_three.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_diamonds_two.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_ace.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_eight.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_five.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_four.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_jack.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_king.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_nine.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_queen.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_seven.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_six.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_ten.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_three.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_hearts_two.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_joker_A.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_joker_B.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_ace.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_eight.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_five.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_four.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_jack.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_king.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_nine.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_queen.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_seven.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_six.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_ten.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_three.gltf`
+- `KayKit Board Game Bits 1.0/Assets/gltf/card_spades_two.gltf`
+
+### KayKit Character Animations 1.1
+
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Large/Rig_Large_CombatMelee.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Large/Rig_Large_General.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Large/Rig_Large_MovementAdvanced.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Large/Rig_Large_MovementBasic.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Large/Rig_Large_Simulation.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Large/Rig_Large_Special.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_CombatMelee.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_CombatRanged.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_General.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_MovementAdvanced.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_Simulation.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_Special.glb`
+- `KayKit Character Animations 1.1/Animations/gltf/Rig_Medium/Rig_Medium_Tools.glb`
+
+### KayKit Dungeon Pack 1.1
+
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_blue.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_green.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternA_green.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternA_white.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternA_yellow.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternB_blue.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternB_brown.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternB_green.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternB_white.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternC_blue.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternC_brown.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternC_green.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternC_white.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_patternC_yellow.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_shield_green.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_shield_white.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_thin_green.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_thin_white.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_triple_brown.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_triple_green.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_triple_white.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_triple_yellow.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_white.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/banner_yellow.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_innercorner.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_outercorner.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_straight_A.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_straight_A_short.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_straight_B.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_straight_B_short.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_straight_C.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bar_straight_C_short.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bartop_A_large.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bartop_A_medium.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bartop_A_small.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bartop_B_large.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bartop_B_medium.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bartop_B_small.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bed_A_double.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bed_A_single.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bed_A_stacked.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bed_B_double.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bed_B_single.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bench.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/book_brown.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/book_grey.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/book_tan.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bookcase_double.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bookcase_double_decoratedA.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bookcase_double_decoratedB.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bookcase_single.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bookcase_single_decoratedA.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bookcase_single_decoratedB.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bucket.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/bucket_pickaxes.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/ceiling_tile.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/chest_large.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/chest_large_gold.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/chest_mimic.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/crate_large.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/crate_large_decorated.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/crate_small.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/floor_dirt_small_C.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/floor_dirt_small_D.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/floor_tile_big_grate_open.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/floor_tile_big_spikes.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/floor_tile_extralarge_grates.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/floor_tile_extralarge_grates_open.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/floor_tile_grate_open.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/key_gold.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/pickaxe.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/pickaxe_gold.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/post.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/rocks.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/rocks_decorated.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/rocks_gold.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/rocks_small.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_beam_corner.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_beam_wall.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_beams_connected.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_frame_large.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_frame_small.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_pillar_corner.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_pillar_wall.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_pillar_wall_cross.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_pillar_wall_cross_top.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_pillar_wall_torch.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_pillars_connected.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/scaffold_pillars_connected_torch.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/shelf_small_books.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/shelves_decorated.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stairs_long.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stairs_long_modular_center.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stairs_long_modular_left.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stairs_long_modular_right.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stairs_modular_center.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stairs_modular_left.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stairs_modular_right.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/stool_round.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/table_long_decorated_B.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/table_medium_decorated_B.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/table_medium_tablecloth_decorated_B.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/table_round_large.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/table_round_medium.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/table_round_small.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/table_small_decorated_C.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/trunk_medium_C.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/trunk_small_C.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_archedwindow_gated_scaffold.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_doorway_Tsplit.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_inset.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_inset_candles.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_inset_shelves.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_inset_shelves_broken.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_inset_shelves_decoratedA.gltf`
+- `KayKit Dungeon Pack 1.1/Assets/gltf/wall_inset_shelves_decoratedB.gltf`
+
+### KayKit Fantasy Weapons Bits 1.0
+
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/arrow_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/arrow_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/arrow_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/axe_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/axe_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/axe_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/axe_D.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/bow_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/bow_A_withString.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/bow_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/bow_B_withString.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/bow_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/bow_C_withString.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/dagger_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/dagger_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/dagger_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/fistweapon_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/fistweapon_A_stacked.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/fistweapon_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/fistweapon_B_stacked.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/fistweapon_C_left.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/fistweapon_C_right.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/fistweapon_C_stacked.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/halberd.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/hammer_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/hammer_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/hammer_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/hammer_D.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/scythe.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/shield_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/shield_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/shield_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/shield_D.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/spear_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/spear_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/staff_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/staff_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/staff_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/staff_D.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/sword_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/sword_B.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/sword_C.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/sword_D.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/sword_E.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/sword_F.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/sword_G.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/wand_A.gltf`
+- `KayKit Fantasy Weapons Bits 1.0/Assets/gltf/wand_B.gltf`
+
+### KayKit Forest Nature Pack 1.0
+
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_1_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_1_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_1_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_1_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_1_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_1_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_1_G_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_2_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_2_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_2_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_2_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_2_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_2_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_3_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_3_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_3_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_4_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_4_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_4_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_4_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_4_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Bush_4_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_1_A_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_1_B_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_1_C_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_1_D_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_2_A_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_2_B_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_2_C_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Grass_2_D_Singlesided_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_G_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_H_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_I_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_J_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_K_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_L_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_M_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_N_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_O_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_P_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_1_Q_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_G_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_2_H_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_G_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_H_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_I_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_J_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_K_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_L_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_M_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_N_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_O_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_P_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_Q_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_3_R_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_G_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_4_H_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_G_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_5_H_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_G_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Rock_6_H_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_1_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_1_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_1_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_2_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_2_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_2_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_2_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_2_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_3_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_3_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_3_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_4_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_4_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_4_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_5_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_5_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_5_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_5_D_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_5_E_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_5_F_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_6_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_6_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_6_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_7_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_7_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_7_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_Bare_1_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_Bare_1_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_Bare_1_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_Bare_2_A_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_Bare_2_B_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color1/Tree_Bare_2_C_Color1.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_1_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_1_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_1_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_1_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_1_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_1_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_1_G_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_2_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_2_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_2_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_2_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_2_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_2_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_3_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_3_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_3_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_4_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_4_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_4_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_4_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_4_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Bush_4_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_1_A_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_1_B_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_1_C_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_1_D_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_2_A_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_2_B_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_2_C_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Grass_2_D_Singlesided_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_G_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_H_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_I_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_J_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_K_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_L_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_M_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_N_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_O_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_P_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_1_Q_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_G_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_2_H_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_G_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_H_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_I_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_J_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_K_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_L_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_M_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_N_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_O_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_P_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_Q_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_3_R_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_G_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_4_H_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_G_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_5_H_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_G_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Rock_6_H_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_1_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_1_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_1_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_2_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_2_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_2_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_2_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_2_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_3_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_3_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_3_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_4_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_4_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_4_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_5_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_5_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_5_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_5_D_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_5_E_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_5_F_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_6_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_6_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_6_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_7_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_7_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_7_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_Bare_1_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_Bare_1_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_Bare_1_C_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_Bare_2_A_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_Bare_2_B_Color6.gltf`
+- `KayKit Forest Nature Pack 1.0/Assets/gltf/Color6/Tree_Bare_2_C_Color6.gltf`
+
+### KayKit Furniture Bits 1.0
+
+- `KayKit Furniture Bits 1.0/Assets/gltf/armchair.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/armchair_pillows.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/bed_double_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/bed_double_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/bed_single_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/bed_single_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/book_set.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/book_single.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cabinet_medium.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cabinet_medium_decorated.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cabinet_small.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cabinet_small_decorated.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cactus_medium_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cactus_medium_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cactus_small_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cactus_small_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_A_wood.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_B_wood.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_C.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_desk_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_desk_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_stool.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/chair_stool_wood.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/couch.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/couch_pillows.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cup.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/cup_pencils.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/desk.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/desk_decorated.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/desk_large.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/desk_large_decorated.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/gameconsole_handheld.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/keyboard.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/lamp_desk.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/lamp_desk_headphones.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/lamp_standing.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/lamp_table.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/monitor.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/mouse.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/mousepad_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/mousepad_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/mousepad_large_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/mousepad_large_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/mug_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/mug_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_large_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_large_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_medium.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_small_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_small_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_small_C.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_standing_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pictureframe_standing_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pillow_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/pillow_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/rug_oval_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/rug_oval_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/rug_rectangle_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/rug_rectangle_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/rug_rectangle_stripes_A.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/rug_rectangle_stripes_B.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/shelf_A_big.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/shelf_A_small.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/shelf_B_large.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/shelf_B_large_decorated.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/shelf_B_small.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/shelf_B_small_decorated.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/table_low.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/table_low_decorated.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/table_medium.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/table_medium_long.gltf`
+- `KayKit Furniture Bits 1.0/Assets/gltf/table_small.gltf`
+
+### KayKit Halloween Bits 1.0
+
+- `KayKit Halloween Bits 1.0/Assets/gltf/haybale.gltf`
+- `KayKit Halloween Bits 1.0/Assets/gltf/scarecrow.gltf`
+- `KayKit Halloween Bits 1.0/Assets/gltf/sign_both.gltf`
+- `KayKit Halloween Bits 1.0/Assets/gltf/sign_left.gltf`
+- `KayKit Halloween Bits 1.0/Assets/gltf/sign_right.gltf`
+- `KayKit Halloween Bits 1.0/Assets/gltf/wagon.gltf`
+- `KayKit Halloween Bits 1.0/Assets/gltf/wagon_hay.gltf`
+- `KayKit Halloween Bits 1.0/Assets/gltf/wooden_gate.gltf`
+
+### KayKit Holiday Bits 1.0
+
+- `KayKit Holiday Bits 1.0/Assets/gltf/tracks_crossing.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/tracks_curve.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/tracks_split_left.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/tracks_split_right.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/tracks_straight.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/tracks_straight_station.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/train_locomotive.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/train_tender_coal.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/train_tender_empty.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/train_tender_presents_A.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/train_tender_presents_B.gltf`
+- `KayKit Holiday Bits 1.0/Assets/gltf/train_wagon.gltf`
+
+### KayKit Mixed Bag 1
+
+- `KayKit Mixed Bag 1/Assets/gltf/toolcart.gltf`
+- `KayKit Mixed Bag 1/Assets/gltf/toolcart_tall.gltf`
+
+### KayKit Mystery Monthly Series 4 (1.1)
+
+- `KayKit Mystery Monthly Series 4 (1.1)/1 - July 2023 - Orc Raider/assets/gltf/Orc_Axe.gltf.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/1 - July 2023 - Orc Raider/assets/gltf/Orc_Club.gltf.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/1 - July 2023 - Orc Raider/assets/gltf/Orc_DrinkingHorn.gltf.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/1 - July 2023 - Orc Raider/assets/gltf/Orc_Wardrum.gltf.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/1 - July 2023 - Orc Raider/assets/gltf/Orc_WardrumStick.gltf.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/1 - July 2023 - Orc Raider/character/OrcRaider.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/10 - April 2024 - Paladin/assets/gltf/paladin_book.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/10 - April 2024 - Paladin/assets/gltf/paladin_hammer.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/10 - April 2024 - Paladin/assets/gltf/paladin_shield.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/10 - April 2024 - Paladin/assets/gltf/paladin_statue.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/10 - April 2024 - Paladin/characters/gltf/Paladin.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/10 - April 2024 - Paladin/characters/gltf/Paladin_with_Helmet.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/12 - June 2024 - Robot/assets/gltf/Robot_ChargingStation.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/12 - June 2024 - Robot/characters/Robot_One.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/12 - June 2024 - Robot/characters/Robot_Two.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/4 - October 2023 - Werewolf/assets/gltf/axe.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/4 - October 2023 - Werewolf/characters/gltf/Werewolf_Man.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/4 - October 2023 - Werewolf/characters/gltf/Werewolf_Wolf.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/7 - January 2024 - Space Ranger/assets/gltf/SpaceRanger_Blade.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/7 - January 2024 - Space Ranger/assets/gltf/SpaceRanger_Helmet.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/7 - January 2024 - Space Ranger/assets/gltf/SpaceRanger_Jetpack.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/7 - January 2024 - Space Ranger/assets/gltf/SpaceRanger_Rifle.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/7 - January 2024 - Space Ranger/character/SpaceRanger.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/7 - January 2024 - Space Ranger/character/SpaceRanger_FlightMode.glb`
+- `KayKit Mystery Monthly Series 4 (1.1)/8 - February 2024 - Ninja/assets/gltf/Ninja_Katana.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/8 - February 2024 - Ninja/assets/gltf/Ninja_Shuriken.gltf`
+- `KayKit Mystery Monthly Series 4 (1.1)/8 - February 2024 - Ninja/character/Ninja.glb`
+
+### KayKit Mystery Monthly Series 5 (1.1)
+
+- `KayKit Mystery Monthly Series 5 (1.1)/1 - July 2024 - Combat Mech/assets/gltf/CombatMech_Axe.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/1 - July 2024 - Combat Mech/assets/gltf/CombatMech_Minigun.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/1 - July 2024 - Combat Mech/characters/CombatMech.glb`
+- `KayKit Mystery Monthly Series 5 (1.1)/12 - June 2025 - Tiefling/assets/gltf/Tiefling_Sword.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/12 - June 2025 - Tiefling/assets/gltf/Tiefling_SwordsBackpack.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/12 - June 2025 - Tiefling/characters/Tiefling.glb`
+- `KayKit Mystery Monthly Series 5 (1.1)/3 - September 2024 - Black Knight/assets/gltf/BlackKnight_Shield.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/3 - September 2024 - Black Knight/assets/gltf/BlackKnight_Shield_Large.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/3 - September 2024 - Black Knight/assets/gltf/BlackKnight_Sword.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/3 - September 2024 - Black Knight/assets/gltf/BlackKnight_Sword_Large.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/3 - September 2024 - Black Knight/characters/BlackKnight.glb`
+- `KayKit Mystery Monthly Series 5 (1.1)/4 - October 2024 - Vampire/assets/gltf/Gem_Large.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/4 - October 2024 - Vampire/assets/gltf/Gem_Medium.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/4 - October 2024 - Vampire/assets/gltf/Gem_Small.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/4 - October 2024 - Vampire/assets/gltf/Vampire_Goblet.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/4 - October 2024 - Vampire/assets/gltf/Vampire_Sword.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/4 - October 2024 - Vampire/assets/gltf/Vampire_Throne.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/4 - October 2024 - Vampire/characters/Vampire.glb`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Basket.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Basket_Mushrooms.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Broom.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Cauldron.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Mortar.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Pestle.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Potionstation.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/assets/gltf/Potionstation_decorated.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/5 - November 2024 - Witch/characters/Witch.glb`
+- `KayKit Mystery Monthly Series 5 (1.1)/7 - January 2025 - FrostGolem/assets/gltf/FrostGolem_Axe.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/7 - January 2025 - FrostGolem/assets/gltf/FrostGolem_Axe_Large.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/7 - January 2025 - FrostGolem/characters/FrostGolem.glb`
+- `KayKit Mystery Monthly Series 5 (1.1)/8 - February 2025 - Caveman/assets/gltf/Campfire_Base.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/8 - February 2025 - Caveman/assets/gltf/Campfire_Logs.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/8 - February 2025 - Caveman/assets/gltf/Caveman_Axe.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/8 - February 2025 - Caveman/assets/gltf/Caveman_Club.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/8 - February 2025 - Caveman/assets/gltf/Caveman_Spear.gltf`
+- `KayKit Mystery Monthly Series 5 (1.1)/8 - February 2025 - Caveman/characters/Caveman.glb`
+- `KayKit Mystery Monthly Series 5 (1.1)/9 - March 2025 - Clanker/characters/Clanker.glb`
+
+### KayKit Mystery Monthly Series 6 (1.1)
+
+- `KayKit Mystery Monthly Series 6 (1.1)/1 - July 2025 - Lorekeeper/assets/gltf/Lorekeeper_Staff.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/1 - July 2025 - Lorekeeper/assets/gltf/Lorekeeper_Tome.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/1 - July 2025 - Lorekeeper/characters/Lorekeeper.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/assets/gltf/carrot.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/assets/gltf/dirt_plot.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/assets/gltf/lettuce.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/assets/gltf/pitchfork.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/assets/gltf/wheelbarrow.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/assets/gltf/wheelbarrow_empty.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/characters/Farmer_A.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/12 - June 2026 - Farmers/characters/Farmer_B.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/2 - August 2025 - Orc Brute/assets/gltf/Orc_Axe.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/2 - August 2025 - Orc Brute/assets/gltf/Orc_Axe_Large.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/2 - August 2025 - Orc Brute/assets/gltf/Orc_Banner.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/2 - August 2025 - Orc Brute/assets/gltf/Orc_Banner_Large.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/2 - August 2025 - Orc Brute/characters/OrcBrute.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/3 - September 2025 - Cleric/assets/gltf/Cleric_Font.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/3 - September 2025 - Cleric/assets/gltf/Cleric_Mace.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/3 - September 2025 - Cleric/assets/gltf/Cleric_Shield.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/3 - September 2025 - Cleric/assets/gltf/Cleric_Tome.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/3 - September 2025 - Cleric/characters/Cleric.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/4 - October 2025 - Monstrosity/assets/gltf/Monstrosity_BarndoorShield.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/4 - October 2025 - Monstrosity/assets/gltf/Monstrosity_BarndoorShield_Large.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/4 - October 2025 - Monstrosity/assets/gltf/Monstrosity_Pitchfork.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/4 - October 2025 - Monstrosity/assets/gltf/Monstrosity_Pitchfork_Large.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/4 - October 2025 - Monstrosity/characters/Monstrosity.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/5 - November 2025 - Plant Warrior/assets/gltf/PlantWarrior_Arrow.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/5 - November 2025 - Plant Warrior/assets/gltf/PlantWarrior_Bow.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/5 - November 2025 - Plant Warrior/assets/gltf/PlantWarrior_Bow_withString.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/5 - November 2025 - Plant Warrior/assets/gltf/PlantWarrior_Shield.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/5 - November 2025 - Plant Warrior/assets/gltf/PlantWarrior_Spear.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/5 - November 2025 - Plant Warrior/characters/PlantWarrior.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/7 - January 2026 - 4GTN/assets/gltf/4GTN_Katana.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/7 - January 2026 - 4GTN/characters/4GTN.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/7 - January 2026 - 4GTN/characters/4GTN_Forgotten.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/8 - February 2026 - Hoarder/assets/gltf/Hoarder_Sword.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/8 - February 2026 - Hoarder/characters/Hoarder.glb`
+- `KayKit Mystery Monthly Series 6 (1.1)/9 - March 2026 - Avian Swordsman/assets/gltf/AvianSwordsman_Sword.gltf`
+- `KayKit Mystery Monthly Series 6 (1.1)/9 - March 2026 - Avian Swordsman/characters/AvianSwordsman.glb`
+
+### KayKit Platformer Pack 1.0
+
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/bracing_large_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/bracing_medium_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/bracing_small_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/conveyor_2x4x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/conveyor_2x8x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/conveyor_4x4x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/conveyor_4x8x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/pipe_180_A_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/pipe_180_B_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/pipe_90_A_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/pipe_90_B_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/pipe_end_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/pipe_straight_A_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/pipe_straight_B_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_1x1x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_2x2x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_2x2x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_2x2x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_4x2x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_4x2x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_4x2x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_4x4x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_4x4x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_4x4x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_6x2x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_6x2x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_6x2x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_6x6x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_6x6x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_6x6x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_arrow_2x2x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_arrow_4x4x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_decorative_1x1x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_decorative_2x2x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_hole_6x6x1_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_2x2x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_2x4x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_2x6x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_4x2x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_4x4x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_4x6x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_6x2x2_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_6x4x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/platform_slope_6x6x4_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/railing_corner_double_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/railing_corner_padded_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/railing_corner_single_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/railing_straight_double_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/railing_straight_padded_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/blue/railing_straight_single_blue.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/pillar_1x1x1.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/pillar_1x1x2.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/pillar_1x1x4.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/pillar_1x1x8.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/pillar_2x2x2.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/pillar_2x2x4.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/pillar_2x2x8.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/structure_A.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/structure_B.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/structure_C.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/strut_horizontal.gltf`
+- `KayKit Platformer Pack 1.0/Assets/gltf/neutral/strut_vertical.gltf`
+
+### KayKit Prototype Bits 1.1
+
+- `KayKit Prototype Bits 1.1/Assets/gltf/Floor.gltf`
+- `KayKit Prototype Bits 1.1/Assets/gltf/Floor_Prototype.gltf`
+
+### KayKit RPG Tools Bits 1.0
+
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/anvil.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/axe.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/blueprint.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/blueprint_stacked.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/bucket_metal.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/chisel.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/compass_base.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/drafting_compass.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/file.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_floater.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_hook_A.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_hook_B.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_rod.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_rod_base.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_tacklebox.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_tacklebox_empty.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/fishing_worm.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/grindstone.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/hammer.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/handdrill.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/handplane.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/journal_closed.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/journal_open.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/key_A.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/key_B.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/key_C.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/knife.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lantern.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lock_A.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lock_B.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lock_C.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lockpick_A.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lockpick_A_old.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lockpick_B.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lockpick_C.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lockpick_D.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/lockpick_set.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/magnifying_glass.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/mallet.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/map.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/map_empty.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/map_rolled.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/nail.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/pencil_A_long.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/pencil_A_short.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/pencil_B_long.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/pencil_B_short.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/pickaxe.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/rope_bundle_A.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/rope_bundle_B.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/saw.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/scissors.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screw_A.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screw_B.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_A_long.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_A_long_color.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_A_short.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_A_short_color.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_B_long.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_B_long_color.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_B_short.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/screwdriver_B_short_color.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/shovel.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/tongs.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/torch.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/torch_burnt.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/trowel.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/wrench_A.gltf`
+- `KayKit RPG Tools Bits 1.0/Assets/gltf/wrench_B.gltf`
+
+### KayKit Resource Bits 1.0
+
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Box_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Box_Large_Dirty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Box_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Box_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Crate_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Crate_Medium_Grey.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Crate_Medium_Tan.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Crate_Medium_Wood.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Crate_Small_Green.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Crate_Small_Grey.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Pile_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Pile_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Containers_Pile_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Bar.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Bars.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Bars_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Bars_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Bars_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Nugget_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Nugget_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Nugget_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Copper_Nuggets.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Apple_Green.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Apple_Red.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Barrel_Empty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Barrel_Fish.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Basket_A_Berries.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Basket_A_Empty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Basket_B_Berries.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Basket_B_Empty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Berry_Blue.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Berry_Orange.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Cheese.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Crate_Large_Apples.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Crate_Large_Empty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Crate_Small_Berries.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Crate_Small_Empty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Flour.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Pile_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Pile_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Food_Pile_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_A_Barrel.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_A_Barrel_Dirty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_A_Barrels.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_A_Jerrycan.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_B_Barrel.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_B_Barrel_Dirty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_B_Barrels.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_B_Jerrycan.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_C_Barrel.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_C_Barrel_Dirty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_C_Barrels.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Fuel_C_Jerrycan.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gem_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gem_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gem_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gems_Chest.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gems_Chest_Empty.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gems_Pile_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gems_Pile_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gems_Sack.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Bar.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Bars.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Bars_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Bars_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Bars_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Nugget_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Nugget_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Nugget_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Gold_Nuggets.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Bar.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Bars.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Bars_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Bars_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Bars_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Nugget_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Nugget_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Nugget_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Iron_Nuggets.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Bill.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Bill_Arched.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Bills_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Bills_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Bills_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Coins_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Coins_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Coins_Stack_Single.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Coins_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Pile_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Pile_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Pile_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Money_Single.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Pallet_Plastic_Blue.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Pallet_Plastic_Grey.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Pallet_Plastic_Orange.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Pallet_Wood.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Pallet_Wood_Covered_A.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Pallet_Wood_Covered_B.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Parts_Cog.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Parts_Pile_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Parts_Pile_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Parts_Pile_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Bar.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Bars.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Bars_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Bars_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Bars_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Nugget_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Nugget_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Nugget_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Silver_Nuggets.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Stone_Brick.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Stone_Bricks_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Stone_Bricks_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Stone_Bricks_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Stone_Chunks_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Stone_Chunks_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Textiles_A.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Textiles_B.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Textiles_C.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Textiles_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Textiles_Stack_Large_Colored.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Textiles_Stack_Small.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Log_A.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Log_B.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Log_Stack.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Plank_A.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Plank_B.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Plank_C.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Planks_Stack_Large.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Planks_Stack_Medium.gltf`
+- `KayKit Resource Bits 1.0/Assets/gltf/Wood_Planks_Stack_Small.gltf`
+
+### KayKit Skeletons 1.1
+
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Arrow.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Arrow_Broken.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Arrow_Broken_Half.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Arrow_Half.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Axe.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Blade.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Crossbow.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Dagger.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Golem_Axe.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Golem_Axe_Large.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Mace.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Mace_Large.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Quiver.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Scythe.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Shield_Large_A.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Shield_Large_B.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Shield_Small_A.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Shield_Small_B.gltf`
+- `KayKit Skeletons 1.1/assets/gltf/Skeleton_Staff.gltf`
+- `KayKit Skeletons 1.1/characters/gltf/Necromancer.glb`
+- `KayKit Skeletons 1.1/characters/gltf/Skeleton_Golem.glb`
+- `KayKit Skeletons 1.1/characters/gltf/Skeleton_Mage.glb`
+- `KayKit Skeletons 1.1/characters/gltf/Skeleton_Minion.glb`
+- `KayKit Skeletons 1.1/characters/gltf/Skeleton_Rogue.glb`
+- `KayKit Skeletons 1.1/characters/gltf/Skeleton_Warrior.glb`
+
+### KayKit Space Base Bits 1.0
+
+- `KayKit Space Base Bits 1.0/Assets/gltf/basemodule_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/basemodule_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/basemodule_C.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/basemodule_D.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/basemodule_E.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/basemodule_garage.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargo_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargo_A_packed.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargo_A_stacked.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargo_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargo_B_packed.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargo_B_stacked.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargodepot_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargodepot_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/cargodepot_C.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/containers_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/containers_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/containers_C.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/containers_D.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/dome.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/drill_structure.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/dropship.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/dropship_packed.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/eco_module.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/lander_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/lander_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/lander_base.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/landingpad_large.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/landingpad_small.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/lights.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/mobile_base_cargo.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/mobile_base_carriage.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/mobile_base_command.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/mobile_base_frame.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/roofmodule_base.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/roofmodule_cargo_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/roofmodule_cargo_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/roofmodule_cargo_C.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/roofmodule_solarpanels.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/solarpanel.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/space_farm_large.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/space_farm_large_sprinkler.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/space_farm_small.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/spacetruck.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/spacetruck_large.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/spacetruck_trailer.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/structure_low.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/structure_tall.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/tunnel_diagonal_long_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/tunnel_diagonal_long_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/tunnel_diagonal_short_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/tunnel_diagonal_short_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/tunnel_straight_A.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/tunnel_straight_B.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/water_storage.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/windturbine_low.gltf`
+- `KayKit Space Base Bits 1.0/Assets/gltf/windturbine_tall.gltf`
+
+## Runtime characters and animation bundles
+
+- `4GTN.glb`
+- `4GTN_Forgotten.glb`
+- `AvianSwordsman.glb`
+- `Barbarian.glb`
+- `Barbarian_Large.glb`
+- `BlackKnight.glb`
+- `Caveman.glb`
+- `Clanker.glb`
+- `Cleric.glb`
+- `CombatMech.glb`
+- `Druid.glb`
+- `Engineer.glb`
+- `Farmer_A.glb`
+- `Farmer_B.glb`
+- `FrostGolem.glb`
+- `Hoarder.glb`
+- `Knight.glb`
+- `Lorekeeper.glb`
+- `Mage.glb`
+- `Monstrosity.glb`
+- `Necromancer.glb`
+- `Ninja.glb`
+- `OrcBrute.glb`
+- `OrcRaider.glb`
+- `Paladin.glb`
+- `Paladin_with_Helmet.glb`
+- `PlantWarrior.glb`
+- `Ranger.glb`
+- `Robot_One.glb`
+- `Robot_Two.glb`
+- `Rogue.glb`
+- `Rogue_Hooded.glb`
+- `Skeleton_Golem.glb`
+- `Skeleton_Mage.glb`
+- `Skeleton_Minion.glb`
+- `Skeleton_Rogue.glb`
+- `Skeleton_Warrior.glb`
+- `SpaceRanger.glb`
+- `SpaceRanger_FlightMode.glb`
+- `Tiefling.glb`
+- `Vampire.glb`
+- `Werewolf_Man.glb`
+- `Werewolf_Wolf.glb`
+- `Witch.glb`
+- `anims_large.glb`
+- `anims_medium.glb`

@@ -1,0 +1,4 @@
+{
+  "extends": "./docs/engineering/tsconfig.portable.json",
+  "include": ["src/game/**/*.ts", "src/core/**/*.ts"]
+}

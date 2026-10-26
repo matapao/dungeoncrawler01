@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-output/
+publish/staging/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.codex-one-report.json

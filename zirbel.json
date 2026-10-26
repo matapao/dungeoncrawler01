@@ -1,0 +1,30 @@
+{
+  "id": "dungeoncrawler01",
+  "version": "0.3.0",
+  "stage": "alpha",
+  "title": "DungeonCrawler01",
+  "tagline": "Explore a seeded two-floor KayKit dungeon with working stairs and five camera views.",
+  "players": {
+    "min": 1,
+    "max": 1
+  },
+  "runsOn": "Desktop browser · solo Alpha",
+  "madeBy": {
+    "name": "bestrand",
+    "url": "https://github.com/bestrand"
+  },
+  "credits": [
+    {
+      "slot": "Models",
+      "artist": "Kay Lousberg",
+      "work": "KayKit",
+      "url": "https://kaylousberg.com",
+      "license": "CC0-1.0"
+    },
+    {
+      "slot": "Credits and licences",
+      "work": "Models, engine and fonts",
+      "url": "https://zirbel.app/dungeoncrawler01/@0.3.0/credits.html"
+    }
+  ]
+}

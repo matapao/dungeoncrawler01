@@ -1,0 +1,42 @@
+{
+  "name": "dungeoncrawler01",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "A solo dungeon exploration Alpha with a gathering hub and generated two-floor KayKit dungeon",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "typecheck": "tsc -p tsconfig.game.json && tsc -p tsconfig.json && tsc -p tsconfig.publish.json && tsc -p tsconfig.tests.json && tsc -p tsconfig.tools.json",
+    "test": "node --test tests/*.test.*",
+    "build": "vite build --config vite.config.ts",
+    "check": "npm run format:check && npm run typecheck && npm test && npm run build",
+    "test:browser": "node tests/browser-suite.ts",
+    "test:browser:phase3": "node tests/phase3-browser.mjs",
+    "format": "node docs/engineering/style.mjs --write",
+    "format:check": "node docs/engineering/style.mjs",
+    "verify": "npm run check",
+    "audit": "npm audit --audit-level=moderate",
+    "prepare:playable": "node scripts/prepare-playable.ts dungeoncrawler01"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matapao/dungeoncrawler01.git"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/three": "0.186.0",
+    "@zirbel/engineering": "file:vendor/zirbel-engineering-1.0.0.tgz",
+    "prettier": "3.9.10",
+    "puppeteer-core": "25.14.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "@zirbel/core": "file:vendor/zirbel-core-2.0.0.tgz"
+  }
+}
